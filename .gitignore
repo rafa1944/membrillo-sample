@@ -1,0 +1,9 @@
+/_uploads
+/_logs
+
+/public-cms/_cache/
+/public-web/_cache/
+
+# vendor -------------
+vendor/*
+/composer.lock

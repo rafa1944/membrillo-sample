@@ -1,0 +1,38 @@
+RewriteEngine on
+
+#-- PHP ---------------------------------
+#php_value upload_max_filesize 15M
+
+#-- Error page --------------------------
+ErrorDocument 404 /app/404.php
+
+#-- Protected files ---------------------
+RewriteRule .*\.(inc|log)$                       - [F,NC,L]
+RewriteRule ^_uploads/.*\.php$                   - [F,NC,L]
+RewriteRule  ^_logs/.+$                          - [F,NC,L]
+
+#-- Add "www" ---------------------------
+RewriteCond %{HTTP_HOST}  ^([^.]+).([^.]+)$
+RewriteRule ^(.*)$        http://www.%{HTTP_HOST}/$1  [R=301,L]
+
+#-- "/" at end ------------------------
+RewriteRule  ^([^\.]+[^/])$    /$1/   [R,L]
+
+#-- COMPRESSION -------------------------
+<FilesMatch "\.(html|php|js|css)$">
+  SetOutputFilter DEFLATE
+</FilesMatch>
+
+#----------------------------------------
+# APP
+#----------------------------------------
+#-- Inicio ------------------------------
+#RewriteRule  ^$    /inicio/       [L]  # web
+
+#-- Secciones ---------------------------
+# admin ---
+RewriteRule  ^(.+)/$    /?secc=$1&%{QUERY_STRING}  [L]
+
+# web -----
+RewriteCond $1 !^(app|[^/]+\.php|_uploads|_cache|.+\.txt|.+\.ico)
+RewriteRule ^(.+)$    /app/$1  [L]
