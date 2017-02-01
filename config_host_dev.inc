@@ -35,7 +35,7 @@ $CONFIG_DB['default'] = array(
  'HOST'     => 'localhost',
  'USER'     => 'root',
  'PASSWORD' => '',
- 'DBNAME'   => 'membrillo_sample'
+ 'DBNAME'   => 'membrillo2_sample'
 );
 
 // OTHER ------------------------

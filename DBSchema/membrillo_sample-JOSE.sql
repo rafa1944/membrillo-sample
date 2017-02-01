@@ -27,9 +27,9 @@ CREATE TABLE `log_updates` (
 CREATE TABLE `sys_users` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `date_insert` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `nombre` varchar(100) NOT NULL,
   `login` varchar(100) NOT NULL COMMENT 'title=Login',
   `passwd` varchar(100) NOT NULL,
+  `nombre` varchar(100) NOT NULL,
   `deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `index_login` (`login`)

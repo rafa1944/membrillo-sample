@@ -1,0 +1,6 @@
+#!/bin/bash
+# Pre-commit hook to make a mysql dump right before committing and add it to the commit.
+#
+
+php "DBSchema/dump-mysql.php"
+exit 0

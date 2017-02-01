@@ -1,3 +1,3 @@
 # membrillo2-sample
-Basic proyect developed with membrillo
+Basic proyect developed with membrillo2
 

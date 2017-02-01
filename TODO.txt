@@ -1,10 +1,6 @@
 
--- Integrar membrillo2 ------------
-
-- Comparar con membrillo2:
-    - DB_mysql
-    - GenQuery
+- Comparar con membrillo1:
     - WInputFile
+    - DB_mysql
     - WList
-    - WForm
 

@@ -6,13 +6,13 @@ use angelrove\utils\CssJsLoad;
 
 
 //-----------------------------
-CssJsLoad::set(__DIR__.'/sample.css');
+// CssJsLoad::set(__DIR__.'/sample.css');
 
 //-----------------------------
 $controlName = 'simple';
 $campos = array(new WListColumn('date_insert', 'Date insert', '140'),
-                new WListColumn('nombre',  'Nombre', '220'),
-                new WListColumn('login',   'Login',  '90')
+                new WListColumn('name',   'Nombre', '220'),
+                new WListColumn('login',  'Login',  '90')
                 );
 
 $htmList = new WList($controlName, SqlQueries::rows(), $campos);
@@ -25,8 +25,6 @@ $htmList->showDelete();
 ?>
 
 <? WApplication::getHtm() ?>
-   <h3>Sample text</h3>
-
-  <?=$htmList->formSearch_complet()?>
-  <?=$htmList->getHtmRows()?>
+   <?=$htmList->formSearch_complet()?>
+   <?=$htmList->getHtmRows()?>
 <? WApplication::getHtm_END() ?>
