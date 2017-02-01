@@ -1,5 +1,5 @@
 <?
-use angelrove\membrillo\AppLogin\iAppLogin;
+use angelrove\membrillo2\AppLogin\iAppLogin;
 
 
 class IntAppLogin implements iAppLogin

@@ -7,5 +7,5 @@
 
 require_once(__DIR__.'/../vendor/autoload.php');
 
-$app = new angelrove\membrillo\AppAjax(__DIR__);
+$app = new angelrove\membrillo2\AppAjax(__DIR__);
 $app->run();

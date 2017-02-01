@@ -1,7 +1,7 @@
 <?
-use angelrove\membrillo\WObjects\WForm\WForm;
-use angelrove\membrillo\WInputs\WInputCheck\WInputCheck;
-use angelrove\membrillo\WInputs\WInputSelect\WInputSelect;
+use angelrove\membrillo2\WObjects\WForm\WForm;
+use angelrove\membrillo2\WInputs\WInputCheck\WInputCheck;
+use angelrove\membrillo2\WInputs\WInputSelect\WInputSelect;
 
 
 $secc_title = $seccCtrl->title . ' - Insertar -';

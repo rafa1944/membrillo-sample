@@ -19,8 +19,8 @@ $CONFIG_APP['data'] = array(
 
 
 // Login -----------------------------------
-use angelrove\membrillo\Login\LoginCtrl;
-use angelrove\membrillo\Login\LoginQueryInterface;
+use angelrove\membrillo2\Login\LoginCtrl;
+use angelrove\membrillo2\Login\LoginQueryInterface;
 
 
 class ILoginQuery implements LoginQueryInterface

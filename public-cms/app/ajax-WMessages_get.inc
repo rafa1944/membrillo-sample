@@ -1,5 +1,5 @@
 <?
-use angelrove\membrillo\WMessages\WMessages;
+use angelrove\membrillo2\WMessages\WMessages;
 
 
 $msgs = WMessages::get();

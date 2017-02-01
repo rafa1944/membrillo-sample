@@ -1,6 +1,6 @@
 <?
 use angelrove\utils\Db_mysql;
-use angelrove\membrillo\GenQuery;
+use angelrove\membrillo2\GenQuery;
 
 
 class SqlQueries

@@ -1,7 +1,7 @@
 <?
 use angelrove\utils\Db_mysql;
-use angelrove\membrillo\GenQuery;
-use angelrove\membrillo\WMessages\WMessages;
+use angelrove\membrillo2\GenQuery;
+use angelrove\membrillo2\WMessages\WMessages;
 
 //--------------------------------------------------------------------
 /** Eventos: operaciones de datos **/

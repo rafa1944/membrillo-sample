@@ -7,5 +7,5 @@
 
 require_once(__DIR__.'/../vendor/autoload.php');
 
-$app = new angelrove\membrillo\AppCms(__DIR__);
+$app = new angelrove\membrillo2\AppCms(__DIR__);
 $app->run();

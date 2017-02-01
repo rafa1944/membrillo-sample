@@ -1,6 +1,6 @@
 <?
-use angelrove\membrillo\WObjects\WList\WList;
-use angelrove\membrillo\WObjects\WList\WListColumn;
+use angelrove\membrillo2\WObjects\WList\WList;
+use angelrove\membrillo2\WObjects\WList\WListColumn;
 
 $controlName = 'simple';
 $campos = array(new WListColumn('date_insert', 'Date insert', '140', 'center'),

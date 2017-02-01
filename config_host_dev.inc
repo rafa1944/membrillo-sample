@@ -3,13 +3,13 @@ define('DOC_ROOT_MAIN', __DIR__);
 
 //------------------------------
 $CONFIG_APP['mail_admin'] = 'jangel.romero@gmail.com';
-define('APP_NAME', 'Sample proyect');
+define('APP_NAME', 'Sample membrillo2 proyect');
 
-define('COMPANY_NAME',   'Membrillo');
+define('COMPANY_NAME',   'Membrillo2');
 define('COMPANY_DOMAIN', 'localhost');
 
 // Domains -------
-define('DOMAIN_CMS', 'cms.membrillo-sample.localhost');
+define('DOMAIN_CMS', 'cms.membrillo2-sample.localhost');
 
 // Errors --------
 $CONFIG_APP['errors']['display']  = 1;
@@ -27,7 +27,7 @@ define('PATH_VENDOR', __DIR__.'/vendor');
 
 # Uploads --------
 $CONFIG_APP['path_uploads'] = __DIR__.'/_uploads';
-$CONFIG_APP['url_uploads']  = 'http://uploads.membrillo-sample.localhost';
+$CONFIG_APP['url_uploads']  = 'http://uploads.membrillo2-sample.localhost';
 $CONFIG_APP['url_uploads_web'] = $CONFIG_APP['url_uploads'];
 
 // BBDD ----------

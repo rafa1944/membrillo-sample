@@ -1,6 +1,6 @@
 {
 
-    "name": "angelrove/membrillo-sample",
+    "name": "angelrove/membrillo2-sample",
     "description": "Basic proyect developed with membrillo",
     "authors": [
         {
@@ -10,13 +10,13 @@
     ],
 
     "repositories": [
-       { "type": "git", "url": "https://github.com/angelrove/membrillo.git" },
+       { "type": "git", "url": "https://github.com/angelrove/membrillo2.git" },
        { "type": "git", "url": "https://github.com/angelrove/utils.git" },
        { "type": "git", "url": "https://github.com/angelrove/front-components.git" }
     ],
 
     "require-dev": {
-        "angelrove/membrillo": "dev-master",
+        "angelrove/membrillo2": "dev-master",
         "angelrove/utils": "dev-master",
         "angelrove/front-components": "dev-master"
     },
@@ -25,7 +25,7 @@
 
     "autoload": {
         "psr-4": {
-          "angelrove\\membrillo\\": "vendor/angelrove/membrillo/src/",
+          "angelrove\\membrillo2\\": "vendor/angelrove/membrillo2/src/",
           "angelrove\\utils\\":     "vendor/angelrove/utils/src/",
           "angelrove\\front_components\\": "vendor/angelrove/front-components/src/"
         }

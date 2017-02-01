@@ -4,7 +4,7 @@
  *
  */
 
-use angelrove\membrillo\WPage\WPage;
+use angelrove\membrillo2\WPage\WPage;
 
 
 class WApplication

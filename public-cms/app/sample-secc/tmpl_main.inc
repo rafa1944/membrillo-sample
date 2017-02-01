@@ -1,31 +1,32 @@
 <?
+use angelrove\membrillo2\WObjects\WList\WList;
+use angelrove\membrillo2\WObjects\WList\WListColumn;
+
 use angelrove\utils\CssJsLoad;
 
-use angelrove\membrillo\WObjects\WList\WList;
-use angelrove\membrillo\WObjects\WList\WListColumn;
 
 //-----------------------------
 CssJsLoad::set(__DIR__.'/sample.css');
 
 //-----------------------------
 $controlName = 'simple';
-$campos = array(new WListColumn('date_insert', 'Date insert', '140', 'center'),
-                new WListColumn('nombre',      'Nombre', '220'),
-                new WListColumn('login',       'Login',  '90')
+$campos = array(new WListColumn('date_insert', 'Date insert', '140'),
+                new WListColumn('nombre',  'Nombre', '220'),
+                new WListColumn('login',   'Login',  '90')
                 );
 
-$sqlUsers = SqlQueries::rows();
-$htmList = new WList($controlName, $sqlUsers, $campos);
+$htmList = new WList($controlName, SqlQueries::rows(), $campos);
 
-$htmList->showPaginacion(false);
-$htmList->setDefaultOrder('nombre, login');
+$htmList->setDefaultOrder('login');
+
 $htmList->showNew();
 $htmList->showUpdate();
 $htmList->showDelete();
 ?>
 
-<? WApplication::getHtm($seccCtrl->title) ?>
+<? WApplication::getHtm() ?>
    <h3>Sample text</h3>
 
+  <?=$htmList->formSearch_complet()?>
   <?=$htmList->getHtmRows()?>
 <? WApplication::getHtm_END() ?>

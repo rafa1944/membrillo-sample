@@ -5,10 +5,10 @@
  *
  */
 
-use angelrove\membrillo\WMessages\WMessages;
-use angelrove\membrillo\WObjects\WMain\WMain;
-use angelrove\membrillo\WObjects\WMainNavbar\WMainNavbar;
-use angelrove\membrillo\WObjects\WFrame\WFrame;
+use angelrove\membrillo2\WMessages\WMessages;
+use angelrove\membrillo2\WObjects\WMain\WMain;
+use angelrove\membrillo2\WObjects\WMainNavbar\WMainNavbar;
+use angelrove\membrillo2\WObjects\WFrame\WFrame;
 
 
 class WApplication
