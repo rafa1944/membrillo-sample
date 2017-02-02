@@ -8,14 +8,31 @@ class SqlQueries
   static $TABLE = 'sys_users';
 
   //--------------------------------------------------------------
+  // static function rows()
+  // {
+  //   return GenQuery::select(self::$TABLE);
+  // }
+  //--------------------------------------------------------------
   static function rows()
   {
-    return GenQuery::select(self::$TABLE);
+    global $objectsStatus;
+
+    // Search ---
+    $filtros = $objectsStatus->getDatos('simple');
+
+    $listCondiciones = array();
+    if(isset($filtros['f_search'])) {
+       $listCondiciones['f_search'] = "(login LIKE '%$filtros[f_search]%' OR name LIKE '%$filtros[f_search]%')";
+    }
+    $sqlFiltros = GenQuery::getSqlFiltros($listCondiciones, $filtros);
+
+    // Query ---
+    return GenQuery::selectFiltros(self::$TABLE, $sqlFiltros);
   }
   //--------------------------------------------------------------
   static function row()
   {
     return GenQuery::selectRow(self::$TABLE, Event::$ROW_ID);
   }
- //--------------------------------------------------------------
+  //--------------------------------------------------------------
 }

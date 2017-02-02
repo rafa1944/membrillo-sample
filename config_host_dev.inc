@@ -17,7 +17,7 @@ $CONFIG_APP['errors']['path_log'] = __DIR__.'/_logs';
 $CONFIG_APP['errors']['log_file_pref'] = '';
 
 // Cache --------
-define('CACHE_CSSJS_ENABLED', false);
+define('CACHE_CSSJS_DISABLED', true);
 define('CACHE_HTML_ENABLED',  false);
 define('CACHE_PATH_WEB', __DIR__.'/web/_cache');
 define('CACHE_URL_WEB', '/_cache');
