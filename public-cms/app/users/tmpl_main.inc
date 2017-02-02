@@ -1,18 +1,19 @@
 <?
 use angelrove\membrillo2\WObjects\WList\WList;
 use angelrove\membrillo2\WObjects\WList\WListColumn;
+use angelrove\membrillo2\Login\Login;
 
+//-----------------------------
 $controlName = 'simple';
 $campos = array(new WListColumn('date_insert', 'Date insert', '140', 'center'),
-                new WListColumn('nombre',      'Nombre', '220'),
+                new WListColumn('name',        'Name', '220'),
                 new WListColumn('login',       'Login',  '90')
                 );
 
-$sqlUsers = SqlQueries::rows();
-$htmList = new WList($controlName, $sqlUsers, $campos);
+$htmList = new WList($controlName, SqlQueries::rows(), $campos);
 
+$htmList->setDefaultOrder('login');
 $htmList->showPaginacion(false);
-$htmList->setDefaultOrder('nombre, login');
 $htmList->showNew();
 $htmList->showUpdate();
 $htmList->showDelete();
@@ -20,7 +21,7 @@ $htmList->showDelete();
 
 <?WApplication::getHtm($seccCtrl->title)?>
 
-  <? if($appLogin->id == 1) { ?>
+  <? if(Login::$user_id == 1) { ?>
      root: <a href="?CONTROL=simple&EVENT=editUpdate&ROW_ID=1">Update...</a><br>
   <?}?>
 

@@ -2,16 +2,10 @@
 use angelrove\membrillo2\WObjects\WList\WList;
 use angelrove\membrillo2\WObjects\WList\WListColumn;
 
-use angelrove\utils\CssJsLoad;
-
-
-//-----------------------------
-// CssJsLoad::set(__DIR__.'/sample.css');
-
 //-----------------------------
 $controlName = 'simple';
 $campos = array(new WListColumn('date_insert', 'Date insert', '140'),
-                new WListColumn('name',   'Nombre', '220'),
+                new WListColumn('name',   'Name', '220'),
                 new WListColumn('login',  'Login',  '90')
                 );
 

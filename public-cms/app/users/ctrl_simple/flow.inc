@@ -1,5 +1,7 @@
 <?
-switch($seccCtrl->EVENT) {
+use angelrove\membrillo2\WObjectsStatus\Event;
+
+switch(Event::$EVENT) {
 
   case 'editNew':
   case 'editUpdate':
@@ -11,4 +13,3 @@ switch($seccCtrl->EVENT) {
   break;
 
 }
-?>

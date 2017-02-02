@@ -1,6 +1,2 @@
 
-- Comparar con membrillo1:
-    - WInputFile
-    - DB_mysql
-    - WList
 

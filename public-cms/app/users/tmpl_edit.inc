@@ -1,48 +1,28 @@
 <?
 use angelrove\membrillo2\WObjects\WForm\WForm;
-use angelrove\membrillo2\WInputs\WInputCheck\WInputCheck;
-use angelrove\membrillo2\WInputs\WInputSelect\WInputSelect;
+use angelrove\membrillo2\WObjectsStatus\Event;
 
+$controlName = 'simple';
 
-$secc_title = $seccCtrl->title . ' - Insertar -';
+// Deshabilitar login "administrador"
+$disabledLogin = (Event::$ROW_ID == 1)? 'disabled' : '';
 
-/** Form edit **/
- $controlName = 'simple';
- $id_usuario = $seccCtrl->getRowId($controlName);
+//-------
+$formEdit = new WForm($controlName, SqlQueries::row());
+$datos = $formEdit->getDatos();
 
- // Datos
- $datos = array();
- if($seccCtrl->EVENT == 'editUpdate') {
-    $secc_title = $seccCtrl->title . ' - Modificar -';
-    $datos = SqlQueries::row($id_usuario);
+// $wInputHtml = new WInputHtml();
 
-    // Deshabilitar login "administrador"
-    $disabledLogin = '';
-    if($id_usuario == 1) $disabledLogin = 'disabled';
- }
- if($errors) {
-    $datos = array_merge($datos, $_POST);
- }
-
- // WForm
- $formEdit = new WForm($controlName);
-
- $sqlListEmpresas = "SELECT id, nombre FROM empresas";
+// Campos ------
+$listCampos = array(
+    array('User', '<input '.$disabledLogin.' type="text" class="form-control" id="login" name="login" value="'.$datos['login'].'">'),
+   'passwd' => 'Passwd',
+   'name'   => 'Nombre',
+);
 ?>
 
-<?WApplication::getHtm($secc_title)?>
- <?$formEdit->getWForm()?>
-   <tr>
-     <td>Login / Pass</td>
-     <td>
-       <input <?=$disabledLogin?> type="text" id="login" name="login" size="19" value="<?=$datos['login']?>"> /
-       <input type="text" size="14" maxlength="20" id="passwd" name="passwd" value="<?=$datos['passwd']?>">
-     <td>
-   </tr>
-
-   <? if($id_usuario != 1): ?>
-     <tr><td>Nombre</td><td><input type="text" size="40" name="nombre" value="<?=$datos['nombre']?>"></td></tr>
-   <? endif ?>
-
- <?$formEdit->getWForm_END()?>
+<?WApplication::getHtm()?>
+  <?$formEdit->getWForm()?>
+    <?$formEdit->setFields($listCampos, $datos)?>
+  <?$formEdit->getWForm_END()?>
 <?WApplication::getHtm_END()?>

@@ -1,11 +1,11 @@
 <?
 use angelrove\membrillo2\WObjects\WForm\WForm;
+use angelrove\membrillo2\WObjectsStatus\Event;
 
 use angelrove\membrillo2\WInputs\WInputRadios;
 use angelrove\membrillo2\WInputs\WInputCheck;
 use angelrove\membrillo2\WInputs\WInputHtml\WInputHtml;
 
-use angelrove\membrillo2\WObjectsStatus\Event;
 
 
 $controlName = 'simple';

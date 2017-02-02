@@ -1,5 +1,5 @@
 <?
-use angelrove\utils\Db_mysql;
+use angelrove\membrillo2\WObjectsStatus\Event;
 use angelrove\membrillo2\GenQuery;
 
 
@@ -10,14 +10,12 @@ class SqlQueries
   //--------------------------------------------------------------
   static function rows()
   {
-    $sqlQ = "SELECT * FROM ".self::$TABLE." WHERE id > 1";
-    return $sqlQ;
+    return GenQuery::select(self::$TABLE);
   }
   //--------------------------------------------------------------
-  static function row($id)
+  static function row()
   {
-    $sqlQ = GenQuery::selectRow(self::$TABLE, $id);
-    return Db_mysql::getRow($sqlQ);
+    return GenQuery::selectRow(self::$TABLE, Event::$ROW_ID);
   }
  //--------------------------------------------------------------
 }

@@ -11,7 +11,7 @@ exit 0
 
 $DBUSER = "root";
 $DBPASS = "";
-$DBNAME = "membrillo_sample";
+$DBNAME = "membrillo2_sample";
 
 $SCHEMAPATH = "./DBSchema";
 $DB_FILE = $SCHEMAPATH."/".$DBNAME."-".$_SERVER['COMPUTERNAME'].".sql";
