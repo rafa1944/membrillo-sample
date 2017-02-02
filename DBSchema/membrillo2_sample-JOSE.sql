@@ -13,7 +13,7 @@
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `sys_log_updates` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_insert` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `user_login` varchar(40) NOT NULL,
   `ip` varchar(15) NOT NULL,
   `user_agent` varchar(250) NOT NULL,
@@ -26,7 +26,7 @@ CREATE TABLE `sys_log_updates` (
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `sys_messages` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `fecha` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_insert` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `id_user` int(10) unsigned DEFAULT NULL,
   `tag` varchar(100) DEFAULT NULL,
   `msg` varchar(250) DEFAULT NULL,
