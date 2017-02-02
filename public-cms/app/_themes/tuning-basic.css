@@ -32,9 +32,10 @@ a:hover {
 /* ----- System ----- */
 .WApplication_msgs {
   position:absolute;
-  top:0;
+  top:1px;
   z-index: 10000;
   left: 40%;
+  border-radius: 0;
 }
 
 /* -------------------------- */
