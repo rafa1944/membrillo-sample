@@ -28,7 +28,7 @@ $listCampos = array(
 ?>
 
 <?WApplication::getHtm()?>
-  <?$formEdit->getWForm()?>
+  <?$formEdit->get()?>
 
     <?$formEdit->setFields($listCampos, $datos)?>
     <b>Samples</b><hr>
