@@ -1,2 +1,4 @@
 
-
+- JavaScript minification:
+   - https://github.com/tchwork/jsqueeze
+   - CssJsLoad::minify_js()

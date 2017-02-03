@@ -1,20 +1,25 @@
 <?
-/**
- * Operations events
+/*
+ *  case 'update':
+ *    if(GenQuery::parseForm(SqlQueries::$TABLE)) return;
+ *    GenQuery::update(SqlQueries::$TABLE)
+ *  break;
+ *
  */
 
 use angelrove\membrillo2\GenQuery;
 use angelrove\membrillo2\WObjectsStatus\Event;
+use angelrove\membrillo2\Messages;
 
 
 switch(Event::$OPER) {
 
   case 'insert':
-    GenQuery::insert(SqlQueries::$TABLE);
+    GenQuery::helper_insert(SqlQueries::$TABLE);
   break;
 
   case 'update':
-    GenQuery::update(SqlQueries::$TABLE);
+    GenQuery::helper_update(SqlQueries::$TABLE);
   break;
 
   case 'delete':
