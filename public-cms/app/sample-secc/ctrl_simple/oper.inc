@@ -1,5 +1,7 @@
 <?
 /*
+ *  use angelrove\membrillo2\Messages;
+ *
  *  case 'update':
  *    if(GenQuery::parseForm(SqlQueries::$TABLE)) return;
  *    GenQuery::update(SqlQueries::$TABLE)
@@ -9,7 +11,6 @@
 
 use angelrove\membrillo2\GenQuery;
 use angelrove\membrillo2\WObjectsStatus\Event;
-use angelrove\membrillo2\Messages;
 
 
 switch(Event::$OPER) {

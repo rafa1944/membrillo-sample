@@ -7,7 +7,6 @@ use angelrove\membrillo2\WInputs\WInputCheck;
 use angelrove\membrillo2\WInputs\WInputHtml\WInputHtml;
 
 
-
 $controlName = 'simple';
 
 // Deshabilitar login "administrador"
@@ -38,5 +37,5 @@ $listCampos = array(
                           )?>
     <?//$formEdit->setField('Test', $wInputHtml->get('theInputHtml', ''))?>
 
-  <?$formEdit->getWForm_END()?>
+  <?$formEdit->get_end()?>
 <?WApplication::getHtm_END()?>

@@ -19,7 +19,7 @@ $htmList->showUpdate();
 $htmList->showDelete();
 ?>
 
-<?WApplication::getHtm($seccCtrl->title)?>
+<?WApplication::getHtm()?>
 
   <? if(Login::$user_id == 1) { ?>
      root: <a href="?CONTROL=simple&EVENT=editUpdate&ROW_ID=1">Update...</a><br>
