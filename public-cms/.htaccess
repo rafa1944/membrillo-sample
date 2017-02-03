@@ -4,7 +4,7 @@ RewriteEngine on
 #php_value upload_max_filesize 15M
 
 #-- Error page --------------------------
-ErrorDocument 404 /app/404.php
+ErrorDocument 404 /404.php
 
 #-- Protected files ---------------------
 RewriteRule .*\.(inc|log)$                       - [F,NC,L]

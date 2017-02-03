@@ -1,4 +1,7 @@
 
-- JavaScript minification:
+- Pagination: revisar (errores en pág no existe)
+
+- JavaScript minify:
    - https://github.com/tchwork/jsqueeze
    - CssJsLoad::minify_js()
+

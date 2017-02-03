@@ -1,7 +1,6 @@
 <?
 /**
- * José A. Romero Vegas, 2006
- * jangel.romero@gmail.com
+ * @author José A. Romero Vegas <jangel.romero@gmail.com>
  *
  */
 
