@@ -30,6 +30,7 @@ $listCampos = array(
   <?$formEdit->get()?>
 
     <?$formEdit->setFields($listCampos, $datos)?>
+
     <b>Samples</b><hr>
     <?$formEdit->setField('Test',  '<input type="text" class="form-control" name="xxx" value="xxx">')?>
     <?$formEdit->setField('InputCheck', WInputCheck::get('check_1', 'WInputCheck 2', 1).

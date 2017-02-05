@@ -8,9 +8,10 @@
 define('CACHE_PATH', __DIR__.'/_cache');
 define('CACHE_URL', '/_cache');
 
-$CONFIG_APP['errors']['log_file_pref'] .= 'admin-';
+define('DEBUG_VARS', false);
+define('DEBUG_SQL',  false);
 
-$CONFIG_APP['debug']['SQL'] = false;
+$CONFIG_APP['errors']['log_file_pref'] .= 'admin-';
 
 // System -----------------------
 if($CONFIG_APP['errors']['display']) {
