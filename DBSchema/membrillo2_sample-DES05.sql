@@ -31,7 +31,7 @@ CREATE TABLE `sys_users` (
   `name` varchar(100) NOT NULL,
   `login` varchar(100) NOT NULL COMMENT 'title=Login',
   `passwd` varchar(100) NOT NULL,
-  `photo` varchar(250) DEFAULT NULL,
+  `file_photo` varchar(250) DEFAULT NULL COMMENT 'type=file',
   PRIMARY KEY (`id`),
   UNIQUE KEY `index_login` (`login`),
   KEY `deleted` (`deleted`)
