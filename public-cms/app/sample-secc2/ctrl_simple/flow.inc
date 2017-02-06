@@ -1,7 +1,6 @@
 <?
 use angelrove\membrillo2\WObjectsStatus\Event;
 
-
 switch(Event::$EVENT) {
 
   case 'editNew':

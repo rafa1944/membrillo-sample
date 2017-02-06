@@ -8,6 +8,11 @@ class SqlQueries
   static $TABLE = 'sys_users';
 
   //--------------------------------------------------------------
+  // static function rows()
+  // {
+  //   return GenQuery::select(self::$TABLE);
+  // }
+  //--------------------------------------------------------------
   static function rows()
   {
     global $objectsStatus;
