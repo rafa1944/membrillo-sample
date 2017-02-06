@@ -21,7 +21,7 @@ $listCampos = array(
    'name'   => 'Nombre',
 );
 
-// File
+// File ---
 $input_photo = new WInputFile('file_photo', $datos['file_photo']);
 $input_photo->showImg(true, 200);
 $input_photo->img_setMaxWidth(1060);
