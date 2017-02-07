@@ -1,8 +1,0 @@
-
-- Pagination: revisar (errores en pág no existe)
-- WForm:      mostrar 404 cuando se intente editar un id que no exista
-
-- JavaScript minify:
-   - https://github.com/tchwork/jsqueeze
-   - CssJsLoad::minify_js()
-
