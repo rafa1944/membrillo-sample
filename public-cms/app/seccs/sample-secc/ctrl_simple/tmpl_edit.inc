@@ -27,10 +27,10 @@ $input_photo->showImg(true, 200);
 $input_photo->img_setMaxWidth(1060);
 ?>
 
-<?WPage::get()?>
+<? WPage::get() ?>
   <?$formEdit->get()?>
     <?$formEdit->setFields($listCampos, $datos)?>
 
     <?$formEdit->setField('Test', $input_photo->get())?>
   <?$formEdit->get_end()?>
-<?WPage::get_end()?>
+<? WPage::get_end() ?>

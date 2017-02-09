@@ -29,7 +29,6 @@ define('PATH_VENDOR', __DIR__.'/vendor');
 # Uploads --------
 $CONFIG_APP['path_uploads'] = __DIR__.'/_uploads';
 $CONFIG_APP['url_uploads']  = 'http://uploads.membrillo2-sample.localhost';
-$CONFIG_APP['url_uploads_web'] = $CONFIG_APP['url_uploads'];
 
 // BBDD ----------
 $CONFIG_DB['default'] = array(
