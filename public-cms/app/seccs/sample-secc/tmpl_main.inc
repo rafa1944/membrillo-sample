@@ -21,7 +21,7 @@ $htmList->showUpdate();
 $htmList->showDelete();
 ?>
 
-<?WPage::get()?>
+<? WPage::get() ?>
   <?=$htmList->formSearch_complet()?>
   <?=$htmList->get()?>
-<?WPage::get_end()?>
+<? WPage::get_end() ?>
