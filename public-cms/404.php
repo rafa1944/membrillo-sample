@@ -16,8 +16,6 @@ header("Status: 404 Not Found");
 </head>
 <body>
 
-<h1 style="text-align:center">libUtils</h1>
-
 <table style="border:1px solid #ccc" cellspacing="10" cellpadding="10" align="center">
  <tr><td style="text-align:center">
    <div style="color:red">
@@ -32,6 +30,7 @@ header("Status: 404 Not Found");
    <br>
 
    Error 404 <b>Not Found</b><br>
+   <?=$strErr?>
  </td></tr>
 </table>
 

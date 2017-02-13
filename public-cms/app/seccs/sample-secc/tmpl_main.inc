@@ -19,6 +19,7 @@ $htmList->setDefaultOrder('login');
 $htmList->showNew();
 $htmList->showUpdate();
 $htmList->showDelete();
+$htmList->setNumRowsPage(3);
 ?>
 
 <? WPage::get() ?>
