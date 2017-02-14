@@ -15,7 +15,6 @@ $datos = $formEdit->getDatos();
 $disabledLogin = (Event::$ROW_ID == 1)? 'disabled' : '';
 
 $listCampos = array(
-    array('User', '<input class="form-control" type="text" '.$disabledLogin.' id="login" name="login" value="'.$datos['login'].'">'),
    'passwd' => 'Passwd',
    'name'   => 'Nombre',
 );
@@ -23,6 +22,8 @@ $listCampos = array(
 
 <?WPage::get()?>
   <?$formEdit->get()?>
-    <?$formEdit->getFields($listCampos, $datos)?>
+    <?$formEdit->getField('User',
+      '<input required class="form-control" type="text" '.$disabledLogin.' id="login" name="login" value="'.$datos['login'].'">')?>
+    <?$formEdit->getFields($listCampos, $datos, true)?>
   <?$formEdit->get_end()?>
 <?WPage::get_end()?>
