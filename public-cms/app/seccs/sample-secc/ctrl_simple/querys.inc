@@ -27,7 +27,7 @@ class SqlQueries
   //--------------------------------------------------------------
   static function row()
   {
-    return GenQuery::selectRow(self::$TABLE, Event::$ROW_ID);
+    // return GenQuery::selectRow(self::$TABLE, Event::$ROW_ID);
   }
   //--------------------------------------------------------------
 }

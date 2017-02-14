@@ -2,7 +2,7 @@
 use angelrove\membrillo2\GenQuery;
 use angelrove\membrillo2\WObjectsStatus\Event;
 use angelrove\utils\Db_mysql;
-use angelrove\membrillo2\WMessages;
+use angelrove\membrillo2\Messages;
 
 
 switch(Event::$OPER) {
@@ -16,10 +16,10 @@ switch(Event::$OPER) {
   break;
 
   case 'delete':
-    $sqlQ = "UPDATE libs_usuarios SET deleted='1' WHERE id='$seccCtrl->ROW_ID'";
+    $sqlQ = "UPDATE ".SqlQueries::$TABLE." SET deleted='1' WHERE id='".EVENT::$ROW_ID."'";
     Db_mysql::query($sqlQ);
 
-    WMessages::set("Deleted.");
+    Messages::set("Deleted.");
   break;
 
 }

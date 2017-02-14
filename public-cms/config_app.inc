@@ -1,21 +1,21 @@
 <?
 $CONFIG_APP['debug'] = array(
-      'LOG_UPDATES' => true,
+   'LOG_UPDATES' => true,
 );
 
 $CONFIG_APP['login'] = array(
-      'LOGIN'       => true,
-      'LOGIN_TABLE' => 'sys_users',
-      'LOGIN_URL'   => '',
+   'LOGIN'       => true,
+   'LOGIN_TABLE' => 'sys_users',
+   'LOGIN_URL'   => '',
 );
 
 $CONFIG_APP['varios'] = array(
-      'CACHING'   => false,
+   'CACHING'   => false,
 );
 
 $CONFIG_APP['data'] = array(
-      'TITLE'     => APP_NAME,
-      'TITLE_IMG' => '',
+   'TITLE'     => APP_NAME,
+   'TITLE_IMG' => '',
 );
 
 

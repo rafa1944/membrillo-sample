@@ -15,5 +15,5 @@ $CONFIG_APP['errors']['log_file_pref'] .= 'admin-';
 
 // System -----------------------
 if($CONFIG_APP['errors']['display']) {
-   error_reporting(E_ALL ^ E_NOTICE);
+   // error_reporting(E_ALL ^ E_NOTICE);
 }

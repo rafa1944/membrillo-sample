@@ -8,15 +8,14 @@ use angelrove\membrillo2\WInputs\WInputFile\WInputFile;
 $controlName = 'simple';
 
 //-------
-$formEdit = new WForm($controlName, SqlQueries::row());
+$formEdit = new WForm($controlName, SqlQueries::$TABLE);
 $datos = $formEdit->getDatos();
 
 // Campos ------
 $disabledLogin = (Event::$ROW_ID == 1)? 'disabled' : '';
 
 $listCampos = array(
-    array('User',
-          '<input '.$disabledLogin.' type="text" class="form-control" id="login" name="login" value="'.$datos['login'].'">'),
+    array('User', '<input class="form-control" type="text" '.$disabledLogin.' id="login" name="login" value="'.$datos['login'].'">'),
    'passwd' => 'Passwd',
    'name'   => 'Nombre',
 );
@@ -29,8 +28,9 @@ $input_photo->img_setMaxWidth(1060);
 
 <? WPage::get() ?>
   <?$formEdit->get()?>
-    <?$formEdit->setFields($listCampos, $datos)?>
 
-    <?$formEdit->setField('Test', $input_photo->get())?>
+    <?$formEdit->getFields($listCampos, $datos)?>
+    <?$formEdit->getField('Test', $input_photo->get())?>
+
   <?$formEdit->get_end()?>
 <? WPage::get_end() ?>
