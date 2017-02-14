@@ -2,7 +2,6 @@
 use angelrove\membrillo2\WPage\WPage;
 use angelrove\membrillo2\WObjects\WForm\WForm;
 use angelrove\membrillo2\WObjectsStatus\Event;
-use angelrove\membrillo2\WInputs\WInputFile\WInputFile;
 
 
 $controlName = 'simple';

@@ -44,8 +44,8 @@ CREATE TABLE `sys_users` (
   `login` varchar(100) NOT NULL COMMENT 'title=Login',
   `passwd` varchar(100) NOT NULL,
   `name` varchar(110) NOT NULL,
-  `file_photo` varchar(300) DEFAULT NULL COMMENT 'type=file',
   `deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `file_photo` varchar(300) DEFAULT NULL COMMENT 'type=file',
   PRIMARY KEY (`id`),
   UNIQUE KEY `index_login` (`login`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
