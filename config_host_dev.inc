@@ -3,7 +3,7 @@ define('DOC_ROOT_MAIN', __DIR__);
 
 //------------------------------
 $CONFIG_APP['mail_admin'] = 'jangel.romero@gmail.com';
-define('APP_NAME', 'Sample membrillo2 proyect');
+define('APP_NAME', 'Membrillo2');
 
 define('COMPANY_NAME',   'Membrillo2');
 define('COMPANY_DOMAIN', 'localhost');
