@@ -11,5 +11,7 @@ $listSubSecc['seccs'] = array(
 );
 
 //----------------------------------------------
+global $CONFIG_SECCIONES;
+
 $CONFIG_SECCIONES->setSections($listSecciones, $listSubSecc);
 $CONFIG_SECCIONES->setDefault('users');
