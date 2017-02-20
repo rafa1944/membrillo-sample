@@ -14,9 +14,4 @@ class SqlQueries
     return "SELECT * FROM ".self::$TABLE." WHERE deleted=0";
   }
   //--------------------------------------------------------------
-  static function row()
-  {
-    // return GenQuery::selectRow(self::$TABLE, Event::$ROW_ID);
-  }
- //--------------------------------------------------------------
 }
