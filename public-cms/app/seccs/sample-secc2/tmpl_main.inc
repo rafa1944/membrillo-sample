@@ -50,5 +50,5 @@ include_once('app/_libs/TmplPage.php');
 
 <?TmplPage::get()?>
   <h1>Hello world!!</h1>
-  <a href="./?CONTROL=simple&OPER=xx&EVENT=la">Event >></a>
+  <a href="<?=CrudUrl::get('event_test', 'simple', 1)?>">Event >></a>
 <?TmplPage::get_end()?>

@@ -20,11 +20,13 @@ $htmList->showPagination(false);
 $htmList->showNew();
 $htmList->showUpdate();
 $htmList->showDelete();
+
+$url_admin = \angelrove\membrillo2\CrudUrl::get(CRUD_EDIT_UPDATE, $controlName, 1);
 ?>
 
 <?WPage::get()?>
   <? if(Login::$user_id == 1) { ?>
-     root: <a href="?CONTROL=simple&EVENT=editUpdate&ROW_ID=1">Update...</a><br>
+     root: <a href="<?=$url_admin?>">Update...</a><br>
   <?}?>
 
   <?=$htmList->get()?>

@@ -1,10 +1,11 @@
 <?
 use angelrove\membrillo2\WObjectsStatus\Event;
 
+
 switch(Event::$EVENT) {
 
-  case 'editNew':
-  case 'editUpdate':
+  case CRUD_EDIT_NEW:
+  case CRUD_EDIT_UPDATE:
     include('tmpl_edit.inc');
   break;
 
