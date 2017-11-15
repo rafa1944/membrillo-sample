@@ -1,11 +1,11 @@
-<?
+<?php
 $CONFIG_APP['debug'] = array(
    'LOG_UPDATES' => true,
 );
 
 $CONFIG_APP['login'] = array(
    'LOGIN'       => true,
-   'LOGIN_TABLE' => 'sys_users',
+   'LOGIN_TABLE' => 'users',
    'LOGIN_URL'   => '',
 );
 
@@ -28,7 +28,7 @@ class ILoginQuery implements LoginQueryInterface
 {
    public function get($user, $passwd)
    {
-      $sqlQ = "SELECT * FROM sys_users
+      $sqlQ = "SELECT * FROM users
                WHERE login='$user' AND
                      passwd='$passwd' AND
                      deleted=0";
