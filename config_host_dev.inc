@@ -18,7 +18,7 @@ $CONFIG_APP['errors']['log_file_pref'] = '';
 
 // Cache --------
 define('CACHE_VERSION', 'v1');   // update cache css, js, html files
-define('CACHE_CSSJS_DISABLED', 'auto');  // true, false, 'auto' (set false in production !!)
+define('CACHE_CSSJS_DISABLED', false);  // true, false (set false in production !!)
 define('CACHE_HTML_ENABLED',   false);
 define('CACHE_PATH_WEB', __DIR__.'/web/_cache');
 define('CACHE_URL_WEB', '/_cache');
@@ -32,9 +32,9 @@ $CONFIG_APP['url_uploads']  = 'http://uploads.membrillo2-sample.localhost';
 
 // BBDD ----------
 $CONFIG_DB['default'] = array(
- 'HOST'     => 'localhost',
- 'USER'     => 'root',
- 'PASSWORD' => '',
+ 'HOST'     => 'mysql',
+ 'USER'     => 'default',
+ 'PASSWORD' => 'secret',
  'DBNAME'   => 'membrillo2_sample'
 );
 
