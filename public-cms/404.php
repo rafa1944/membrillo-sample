@@ -1,4 +1,4 @@
-<?
+<?php
 /**
  * Página de error personalizada
  *   - es preferible llamarla mediante un "include()", ya que así se
