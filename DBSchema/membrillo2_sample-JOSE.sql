@@ -38,7 +38,7 @@ CREATE TABLE `sys_messages` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `sys_users` (
+CREATE TABLE `users` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `date_insert` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `login` varchar(100) NOT NULL COMMENT 'title=Login',

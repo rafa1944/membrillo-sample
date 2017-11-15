@@ -5,7 +5,7 @@ use angelrove\membrillo2\GenQuery;
 
 class SqlQueries
 {
-  static $TABLE = 'sys_users';
+  static $TABLE = 'users';
 
   //--------------------------------------------------------------
   static function rows()
