@@ -1,3 +1,3 @@
 <?
-include('ctrl_simple/querys.inc');
+include('ctrl_simple/queries.inc');
 
