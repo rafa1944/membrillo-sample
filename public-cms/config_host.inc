@@ -1,4 +1,4 @@
-<?
+<?php
 /**
  * >> DOC_ROOT_MAIN
  *    DOCUMENT_ROOT
@@ -11,7 +11,7 @@ define('CACHE_URL', '/_cache');
 define('DEBUG_VARS', false);
 define('DEBUG_SQL',  false);
 
-$CONFIG_APP['errors']['log_file_pref'] .= 'admin-';
+$CONFIG_APP['errors']['log_file_pref'] .= 'cms-';
 
 // System -----------------------
 // if($CONFIG_APP['errors']['display']) {

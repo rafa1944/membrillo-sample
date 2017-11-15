@@ -1,6 +1,7 @@
 /_uploads
 /_logs
 
+/config_host.inc
 /public-cms/_cache/
 /public-web/_cache/
 
