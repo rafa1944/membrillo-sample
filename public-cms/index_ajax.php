@@ -1,10 +1,8 @@
 <?php
 /**
  * @author José A. Romero Vegas <jangel.romero@gmail.com>
- *
  */
 
-require_once(__DIR__.'/../vendor/autoload.php');
+require 'MainAjax.php';
 
-$app = new angelrove\membrillo2\AppCmsAjax(__DIR__);
-$app->run();
+MainAjax\MainAjax::run();
