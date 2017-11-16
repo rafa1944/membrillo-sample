@@ -1,0 +1,38 @@
+
+<Directory /var/www/>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+    RewriteEngine on
+</Directory>
+
+# Proteger Cron --------------
+<Files cron.php>
+   Order Deny,Allow
+   Deny from all
+   Allow from localhost
+   Allow from 127.0.0.1
+   Allow from 46.101.213.22
+</Files>
+
+# PHP options ------------------------
+php_flag  short_open_tag on
+php_value upload_max_filesize "5M"
+
+# CMS -----------------------------------
+<VirtualHost *:80>
+    ServerName cms.membrillo.localhost
+    DocumentRoot "/var/www/public-cms"
+</VirtualHost>
+
+# Web -----------------------------------
+<VirtualHost *:80>
+    ServerName  web.membrillo.localhost
+    DocumentRoot "/var/www/public-web"
+</VirtualHost>
+
+# Uploads -------------------------------
+<VirtualHost *:80>
+    ServerName uploads.membrillo.localhost
+    DocumentRoot "/var/www/_uploads"
+</VirtualHost>
