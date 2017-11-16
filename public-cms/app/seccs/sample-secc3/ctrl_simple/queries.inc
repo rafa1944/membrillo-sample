@@ -16,8 +16,8 @@ class SqlQueries
     $filtros = $objectsStatus->getDatos('simple');
 
     $listCondiciones = array();
-    if(isset($filtros['f_search'])) {
-       $listCondiciones['f_search'] = "(login LIKE '%$filtros[f_search]%' OR name LIKE '%$filtros[f_search]%')";
+    if(isset($filtros['f_text'])) {
+       $listCondiciones['f_text'] = "(login LIKE '%$filtros[f_text]%' OR name LIKE '%$filtros[f_text]%')";
     }
     $sqlFiltros = GenQuery::getSqlFiltros($listCondiciones, $filtros);
 

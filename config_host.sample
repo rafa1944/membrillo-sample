@@ -1,5 +1,6 @@
 <?
 define('DOC_ROOT_MAIN', __DIR__);
+define('IS_LOCALHOST', true);
 
 //------------------------------
 $CONFIG_APP['mail_admin'] = 'jangel.romero@gmail.com';
@@ -9,7 +10,7 @@ define('COMPANY_NAME',   'Membrillo2');
 define('COMPANY_DOMAIN', 'localhost');
 
 // Domains -------
-define('DOMAIN_CMS', 'cms.membrillo2-sample.localhost');
+define('DOMAIN_CMS', 'cms.membrillo2.localhost');
 
 // Errors --------
 $CONFIG_APP['errors']['display']  = 1;
@@ -18,8 +19,10 @@ $CONFIG_APP['errors']['log_file_pref'] = '';
 
 // Cache --------
 define('CACHE_VERSION', 'v1');   // update cache css, js, html files
-define('CACHE_CSSJS_DISABLED', false);  // true, false (set false in production !!)
-define('CACHE_HTML_ENABLED',   false);
+define('CACHE_CSSJS_DISABLED', true);  // set false in production
+define('CACHE_HTML_ENABLED', false);   // set true in production
+define('CSSJSLOAD_MINIFY', false);     // set true in production
+
 define('CACHE_PATH_WEB', __DIR__.'/web/_cache');
 define('CACHE_URL_WEB', '/_cache');
 
@@ -28,14 +31,15 @@ define('PATH_VENDOR', __DIR__.'/vendor');
 
 # Uploads --------
 $CONFIG_APP['path_uploads'] = __DIR__.'/_uploads';
-$CONFIG_APP['url_uploads']  = 'http://uploads.membrillo2-sample.localhost';
+$CONFIG_APP['url_uploads']  = 'http://uploads.membrillo2.localhost';
+$CONFIG_APP['url_uploads_web'] = $CONFIG_APP['url_uploads'];
 
 // BBDD ----------
 $CONFIG_DB['default'] = array(
  'HOST'     => 'mysql',
  'USER'     => 'default',
  'PASSWORD' => 'secret',
- 'DBNAME'   => 'membrillo2_sample'
+ 'DBNAME'   => 'membrillo2'
 );
 
 // OTHER ------------------------
