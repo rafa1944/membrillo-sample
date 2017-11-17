@@ -9,9 +9,9 @@ exit 0
 ------------------
  */
 
+$DBNAME = "membrillo2";
 $DBUSER = "root";
-$DBPASS = "";
-$DBNAME = "membrillo2_sample";
+$DBPASS = "root";
 
 $SCHEMAPATH = "./DBSchema";
 $DB_FILE = $SCHEMAPATH."/".$DBNAME."-".$_SERVER['COMPUTERNAME'].".sql";
