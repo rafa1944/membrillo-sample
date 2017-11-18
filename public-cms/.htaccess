@@ -7,9 +7,9 @@ RewriteEngine on
 ErrorDocument 404 /404.php
 
 #-- Protected files ---------------------
-RewriteRule .*\.(inc|log)$                       - [F,NC,L]
-RewriteRule ^_uploads/.*\.php$                   - [F,NC,L]
-RewriteRule  ^_logs/.+$                          - [F,NC,L]
+RewriteRule .*\.(inc|log)$        - [F,NC,L]
+RewriteRule ^_uploads/.*\.php$    - [F,NC,L]
+RewriteRule  ^_logs/.+$           - [F,NC,L]
 
 #-- Add "www" ---------------------------
 RewriteCond %{HTTP_HOST}  ^([^.]+).([^.]+)$
