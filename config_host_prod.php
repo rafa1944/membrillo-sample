@@ -1,30 +1,24 @@
 <?
 define('DOC_ROOT_MAIN', __DIR__);
-define('IS_LOCALHOST', true);
+define('IS_LOCALHOST', false);
 
-//------------------------------
-$CONFIG_APP['mail_admin'] = 'jangel.romero@gmail.com';
+//----------------
+define('MAIL_ADMIN', 'develop@hobbiespot.com');
 define('APP_NAME', 'Membrillo2');
 
 define('COMPANY_NAME',   'Membrillo2');
 define('COMPANY_DOMAIN', 'localhost');
 
-// Domains -------
-define('DOMAIN_CMS', 'cms.membrillo2.localhost');
-
 // Errors --------
-$CONFIG_APP['errors']['display']  = 1;
+$CONFIG_APP['errors']['display']  = 0;
 $CONFIG_APP['errors']['path_log'] = __DIR__.'/_logs';
 $CONFIG_APP['errors']['log_file_pref'] = '';
 
 // Cache --------
 define('CACHE_VERSION', 'v1');   // update cache css, js, html files
-define('CACHE_CSSJS_DISABLED', true);  // set false in production
-define('CACHE_HTML_ENABLED', false);   // set true in production
-define('CSSJSLOAD_MINIFY', false);     // set true in production
-
-define('CACHE_PATH_WEB', __DIR__.'/web/_cache');
-define('CACHE_URL_WEB', '/_cache');
+define('CACHE_CSSJS_DISABLED', false);  // set false in production
+define('CACHE_HTML_ENABLED', true);   // set true in production
+define('CSSJSLOAD_MINIFY', true);     // set true in production
 
 # Vendor ---------
 define('PATH_VENDOR', __DIR__.'/vendor');
