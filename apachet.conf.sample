@@ -6,7 +6,7 @@
     RewriteEngine on
 </Directory>
 
-# Proteger Cron --------------
+# Cron protection --------------
 <Files cron.php>
    Order Deny,Allow
    Deny from all
@@ -14,10 +14,6 @@
    Allow from 127.0.0.1
    Allow from 46.101.213.22
 </Files>
-
-# PHP options ------------------------
-php_flag  short_open_tag on
-php_value upload_max_filesize "5M"
 
 # CMS -----------------------------------
 <VirtualHost *:80>
