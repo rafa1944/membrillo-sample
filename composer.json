@@ -1,7 +1,6 @@
 {
-
     "name": "angelrove/membrillo2-sample",
-    "description": "Basic proyect developed with membrillo",
+    "description": "Proyect developed with membrillo",
     "authors": [
         {
             "name": "Jose Angel Romero",
@@ -21,14 +20,17 @@
         "angelrove/front-components": "dev-master"
     },
     "require": {
+
     },
 
     "autoload": {
         "psr-4": {
+          "app\\lib\\":      "public/app/_libs/",
+          "App\\Models\\":   "public/app/Models/",
+          "App\\Services\\": "public/app/Services/",
           "angelrove\\membrillo2\\": "vendor/angelrove/membrillo2/src/",
-          "angelrove\\utils\\":     "vendor/angelrove/utils/src/",
+          "angelrove\\utils\\": "vendor/angelrove/utils/src/",
           "angelrove\\front_components\\": "vendor/angelrove/front-components/src/"
         }
     }
-
 }

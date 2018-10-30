@@ -1,4 +1,4 @@
-<?
+<?php
 define('DOC_ROOT_MAIN', __DIR__);
 define('IS_LOCALHOST', false);
 
@@ -16,12 +16,12 @@ $CONFIG_APP['errors']['log_file_pref'] = '';
 
 // Cache --------
 define('CACHE_VERSION', 'v1');   // update cache css, js, html files
-define('CACHE_CSSJS_DISABLED', false);  // set false in production
-define('CACHE_HTML_ENABLED', true);   // set true in production
-define('CSSJSLOAD_MINIFY', true);     // set true in production
+define('CACHE_CSSJS_DISABLED', false); // set false in production
+define('CSSJSLOAD_MINIFY',     true);  // set true in production
 
 # Vendor ---------
 define('PATH_VENDOR', __DIR__.'/vendor');
+define('URL_VENDOR', 'http://vendor.xxxx.com');
 
 # Uploads --------
 $CONFIG_APP['path_uploads'] = __DIR__.'/_uploads';
