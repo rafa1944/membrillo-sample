@@ -1,4 +1,4 @@
-<?
+<?php
 use angelrove\membrillo2\WPage\WPage;
 use angelrove\membrillo2\WObjects\WForm\WForm;
 use angelrove\membrillo2\WObjectsStatus\Event;
@@ -27,13 +27,13 @@ $listCampos = array(
 );
 ?>
 
-<? WPage::get() ?>
-  <?$formEdit->get()?>
+<?php WPage::get() ?>
+  <?php $formEdit->get()?>
 
-    <?$formEdit->getField('User',
+    <?php $formEdit->getField('User',
       '<input required class="form-control" type="text" '.$disabledLogin.' id="login" name="login" value="'.$datos['login'].'">')?>
 
-    <?$formEdit->getFields($listCampos, $datos, true)?>
+    <?php $formEdit->getFields($listCampos, $datos, true)?>
 
-  <?$formEdit->get_end()?>
-<? WPage::get_end() ?>
+  <?php $formEdit->get_end()?>
+<?php WPage::get_end() ?>

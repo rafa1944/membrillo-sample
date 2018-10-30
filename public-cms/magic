@@ -5,6 +5,7 @@ require __DIR__.'/../vendor/autoload.php';
 
 /**
  * Magic commands
+ * Sample: php magic --newsecc notas
  */
 
 use angelrove\membrillo2\Magic\Magic;

@@ -1,4 +1,4 @@
-<?
+<?php
 use angelrove\utils\Vendor;
 
 // Bootstrap theme (overwriting default) ---------------------
@@ -20,4 +20,12 @@ use angelrove\utils\Vendor;
 //    '//cdnjs.cloudflare.com/ajax/libs/', array(
 //          'jquery.isotope/3.0.1/isotope.pkgd.min.js',
 //          'jquery.imagesloaded/4.1.0/imagesloaded.min.js'
+// ));
+
+// Vendor::conf('bootstrap-calendar',
+//    '//cdnjs.cloudflare.com/ajax/libs/', array(
+//          'underscore.js/1.8.3/underscore-min.js',
+//          'bootstrap-calendar/0.2.5/js/calendar.min.js',
+//          'bootstrap-calendar/0.2.5/js/language/es-ES.min.js',
+//          'bootstrap-calendar/0.2.5/css/calendar.min.css',
 // ));

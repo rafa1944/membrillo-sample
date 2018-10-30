@@ -1,4 +1,4 @@
-<?
+<?php
 use angelrove\membrillo2\GenQuery;
 use angelrove\membrillo2\WObjectsStatus\Event;
 

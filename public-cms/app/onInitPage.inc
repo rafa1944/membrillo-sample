@@ -1,7 +1,6 @@
-<?
+<?php
 use angelrove\utils\CssJsLoad;
 use angelrove\membrillo2\WPage\Navbar;
-
 
 // Theme ----------------
 CssJsLoad::set(PATH_VENDOR.'/angelrove/membrillo2/src/_themes/basic-cms.css');

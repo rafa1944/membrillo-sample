@@ -1,4 +1,4 @@
-<?
+<?php
 use angelrove\membrillo2\WObjectsStatus\Event;
 use angelrove\membrillo2\Messages;
 

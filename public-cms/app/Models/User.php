@@ -10,13 +10,6 @@ class User implements ModelInterface
 {
     public static $TABLE = 'users';
 
-    public static $profileValues = array(
-      // 'universities_admin' =>'Universities Admin',
-      'plans_admin'  =>'Plans Admin',
-      'plans_editor' =>'Plans Editor',
-      'plans_user'   =>'Plans User',
-    );
-
     //--------------------------------------------------------------
     public static function read(array $filtros=array(), $strict=false)
     {
@@ -27,14 +20,6 @@ class User implements ModelInterface
     {
         $sqlQ = "UPDATE " . self::$TABLE . " SET deleted='1' WHERE id='" . Event::$ROW_ID . "'";
         Db_mysql::query($sqlQ);
-    }
-    //--------------------------------------------------------------
-    public static function getUsersPlan()
-    {
-        $sqlQ = "SELECT *
-                 FROM " . self::$TABLE . "
-                 WHERE profile IN ( 'plans_admin', 'plans_editor', 'plans_user' )";
-        return Db_mysql::getList($sqlQ);
     }
     //--------------------------------------------------------------
     public static function rows()

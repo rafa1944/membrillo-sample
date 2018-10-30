@@ -39,4 +39,4 @@ header("Status: 404 Not Found");
 
 </body>
 </html>
-<?exit();?>
+<?php exit();?>
