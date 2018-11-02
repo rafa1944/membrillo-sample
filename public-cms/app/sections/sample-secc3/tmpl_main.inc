@@ -4,7 +4,6 @@ use angelrove\membrillo2\WPage\Navbar;
 use angelrove\membrillo2\WObjects\WList\WList;
 use angelrove\membrillo2\WObjects\WList\WListColumn;
 
-
 $controlName = 'simple';
 
 //-----------------------------

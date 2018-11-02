@@ -4,15 +4,11 @@ use angelrove\membrillo2\WObjects\WForm\WForm;
 use angelrove\membrillo2\WObjectsStatus\Event;
 use angelrove\membrillo2\WInputs\WInputFile\WInputFile;
 
-
 $controlName = 'simple';
 
 //-------
 $formEdit = new WForm($controlName, SqlQueries::$TABLE);
 $datos = $formEdit->getDatos();
-
-// Campos ------
-$disabledLogin = (Event::$ROW_ID == 1)? 'disabled' : '';
 
 // File
 $input_photo = new WInputFile('file_photo', $datos['file_photo']);
@@ -31,7 +27,7 @@ $listCampos = array(
   <?php $formEdit->get()?>
 
     <?php $formEdit->getField('User',
-      '<input required class="form-control" type="text" '.$disabledLogin.' id="login" name="login" value="'.$datos['login'].'">')?>
+      '<input required class="form-control" type="text" name="login" value="'.$datos['login'].'">')?>
 
     <?php $formEdit->getFields($listCampos, $datos, true)?>
 

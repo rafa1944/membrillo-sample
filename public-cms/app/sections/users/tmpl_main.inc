@@ -17,7 +17,7 @@ $campos = array(new WListColumn('created_at', 'Created at', '90', 'center'),
 
 $htmList = new WList($controlName, User::read(), $campos);
 
-$htmList->setDefaultOrder('profile');
+$htmList->setDefaultOrder('name');
 $htmList->showPagination(false);
 $htmList->showNew();
 $htmList->showUpdate();

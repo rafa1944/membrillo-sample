@@ -10,6 +10,12 @@ class User implements ModelInterface
 {
     public static $TABLE = 'users';
 
+    public static $profileValues = array(
+      'admin'  =>'Admin',
+      'editor' =>'Editor',
+      'user'   =>'User',
+    );
+
     //--------------------------------------------------------------
     public static function read(array $filtros=array(), $strict=false)
     {
