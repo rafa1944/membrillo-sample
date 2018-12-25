@@ -3,10 +3,10 @@ define('DOC_ROOT_MAIN', __DIR__);
 define('IS_LOCALHOST', false);
 
 //----------------
-define('MAIL_ADMIN', 'develop@hobbiespot.com');
-define('APP_NAME', 'Membrillo2');
+define('MAIL_ADMIN', 'develop@membrillo.com');
+define('APP_NAME', 'Membrillo');
 
-define('COMPANY_NAME',   'Membrillo2');
+define('COMPANY_NAME',   'Membrillo');
 define('COMPANY_DOMAIN', 'localhost');
 
 // Errors --------
@@ -25,7 +25,7 @@ define('URL_VENDOR', 'http://vendor.xxxx.com');
 
 # Uploads --------
 $CONFIG_APP['path_uploads'] = __DIR__.'/_uploads';
-$CONFIG_APP['url_uploads']  = 'http://uploads.membrillo2.localhost';
+$CONFIG_APP['url_uploads']  = 'http://uploads.membrillo.localhost';
 $CONFIG_APP['url_uploads_web'] = $CONFIG_APP['url_uploads'];
 
 // BBDD ----------
@@ -33,7 +33,7 @@ $CONFIG_DB['default'] = array(
  'HOST'     => 'mysql',
  'USER'     => 'default',
  'PASSWORD' => 'secret',
- 'DBNAME'   => 'membrillo2'
+ 'DBNAME'   => 'membrillo'
 );
 
 // OTHER ------------------------
