@@ -22,12 +22,14 @@
 
     $ git clone https://github.com/angelrove/membrillo-laradock.git
 
-    # Sample Nginx conf ------
+    # Nginx Membrillo rules -------
     location / {
-       rewrite ^([^.]*[^/])$ $1/ permanent;
-       rewrite "^/(.+)/crd/([^/]+)/([^/]+)/([^/]+)/$" /?secc=$1&CONTROL=$2&EVENT=$3&ROW_ID=$4&$query_string break;
-       rewrite "^/(.+)/crd/([^/]+)/([^/]+)/$" /?secc=$1&CONTROL=$2&EVENT=$3&$query_string break;
-       rewrite "^/(.+)/$" /?secc=$1&$query_string break;
+         # try_files $uri $uri/ /index.php$is_args$args;
+
+         rewrite ^([^.]*[^/])$ $1/ permanent;
+         rewrite "^/(.+)/crd/([^/]+)/([^/]+)/([^/]+)/$" /?secc=$1&CONTROL=$2&EVENT=$3&ROW_ID=$4&$query_string break;
+         rewrite "^/(.+)/crd/([^/]+)/([^/]+)/$"         /?secc=$1&CONTROL=$2&EVENT=$3&$query_string break;
+         rewrite "^/(.+)/$" /?secc=$1&$query_string break;
     }
     #-------------------------
 
