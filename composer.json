@@ -25,9 +25,9 @@
 
     "autoload": {
         "psr-4": {
-          "app\\lib\\":      "public-cms/app/_libs/",
-          "App\\Models\\":   "public-cms/app/Models/",
-          "App\\Services\\": "public-cms/app/Services/",
+          "app\\lib\\":      "public/app/_libs/",
+          "App\\Models\\":   "public/app/Models/",
+          "App\\Services\\": "public/app/Services/",
           "angelrove\\membrillo2\\": "vendor/angelrove/membrillo2/src/",
           "angelrove\\utils\\": "vendor/angelrove/utils/src/",
           "angelrove\\front_components\\": "vendor/angelrove/front-components/src/"

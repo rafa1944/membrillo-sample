@@ -8,6 +8,9 @@
     $ git clone https://github.com/angelrove/membrillo-sample.git
     $ cd membrillo-sample
 
+    Laradock:
+       $ git clone https://github.com/angelrove/membrillo-laradock.git
+
 ### Composer
     $ composer install
 
@@ -16,7 +19,7 @@
     $ mkdir _uploads _logs public/_cache
 
     Symlink point to uploads folder:
-      $ ln -sf /var/www/[proyect_folder]/_uploads/ public/uploads
+       $ ln -sf /var/www/[proyect_folder]/_uploads/ public/uploads
 
 ### Nginx conf
 

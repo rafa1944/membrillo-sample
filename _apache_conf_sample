@@ -18,7 +18,7 @@
 # CMS -----------------------------------
 <VirtualHost *:80>
     ServerName cms.membrillo.localhost
-    DocumentRoot "/var/www/public-cms"
+    DocumentRoot "/var/www/public"
 </VirtualHost>
 
 # Web -----------------------------------

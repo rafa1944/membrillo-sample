@@ -4,7 +4,7 @@
 /_logs
 
 /config_host.inc
-/public-cms/_cache/
+/public/_cache/
 /public-web/_cache/
 /membrillo-laradock
 
