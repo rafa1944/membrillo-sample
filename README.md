@@ -8,9 +8,6 @@
     $ git clone https://github.com/angelrove/membrillo-sample.git
     $ cd membrillo-sample
 
-    Laradock:
-       $ git clone https://github.com/angelrove/membrillo-laradock.git
-
 ### Composer
     $ composer install
 
@@ -21,18 +18,18 @@
     Symlink point to uploads folder:
        $ ln -sf /var/www/[proyect_folder]/_uploads/ public/uploads
 
-### Nginx conf
+### Docker
 
-    #----------------
+    $ git clone https://github.com/angelrove/membrillo-laradock.git
+
+    # Sample Nginx conf ------
     location / {
        rewrite ^([^.]*[^/])$ $1/ permanent;
        rewrite "^/(.+)/crd/([^/]+)/([^/]+)/([^/]+)/$" /?secc=$1&CONTROL=$2&EVENT=$3&ROW_ID=$4&$query_string break;
        rewrite "^/(.+)/crd/([^/]+)/([^/]+)/$" /?secc=$1&CONTROL=$2&EVENT=$3&$query_string break;
        rewrite "^/(.+)/$" /?secc=$1&$query_string break;
     }
-    #----------------
-
-    $ sudo service nginx reload
+    #-------------------------
 
 ### Production: Config files
 
@@ -41,9 +38,9 @@
     Edit config_host.php:
       Set database params
 
-### Develop: Config files
+### Config files
 
-    $ cp config_host_local.php config_host.php
+    Edit: config_host.php
 
 ### Database
 
@@ -53,5 +50,5 @@
 
 ## Run width Docker
 
-    $ cd docker-universia/
-    $ . compose_up.sh
+    $ cd membrillo-laradock/
+    $ . run.sh
