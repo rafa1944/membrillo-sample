@@ -1,5 +1,5 @@
 {
-    "name": "angelrove/membrillo2-sample",
+    "name": "angelrove/membrillo-sample",
     "description": "Proyect developed with membrillo",
     "authors": [
         {
@@ -25,9 +25,9 @@
 
     "autoload": {
         "psr-4": {
-          "app\\lib\\":      "public/app/_libs/",
-          "App\\Models\\":   "public/app/Models/",
-          "App\\Services\\": "public/app/Services/",
+          "app\\lib\\":      "public-cms/app/_libs/",
+          "App\\Models\\":   "public-cms/app/Models/",
+          "App\\Services\\": "public-cms/app/Services/",
           "angelrove\\membrillo2\\": "vendor/angelrove/membrillo2/src/",
           "angelrove\\utils\\": "vendor/angelrove/utils/src/",
           "angelrove\\front_components\\": "vendor/angelrove/front-components/src/"

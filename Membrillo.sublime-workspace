@@ -1,0 +1,1849 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"image",
+				"image_data"
+			],
+			[
+				"print",
+				"print_r2"
+			],
+			[
+				"time",
+				"timezone"
+			],
+			[
+				"help",
+				"helper_parse_url"
+			],
+			[
+				"a",
+				"auto\twidth"
+			],
+			[
+				"secc",
+				"seccion"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"in",
+				"initial\tbackground-color"
+			],
+			[
+				"lo",
+				"locale"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"strt",
+				"strtoupper"
+			],
+			[
+				"Con",
+				"config"
+			],
+			[
+				"user",
+				"userLang"
+			],
+			[
+				"S",
+				"Session"
+			],
+			[
+				"name",
+				"name_model"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"comm",
+				"command"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"sql",
+				"sqlFiltros"
+			],
+			[
+				"str",
+				"strrpos"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"ur",
+				"url_api_publish"
+			],
+			[
+				"pu",
+				"publish"
+			],
+			[
+				"upda",
+				"update_bbdd"
+			],
+			[
+				"use",
+				"users"
+			],
+			[
+				"con",
+				"continue"
+			],
+			[
+				"nam",
+				"name_en"
+			],
+			[
+				"U",
+				"UtilsBasic"
+			],
+			[
+				"sta",
+				"static"
+			],
+			[
+				"categ",
+				"categoria"
+			],
+			[
+				"ech",
+				"EchoFlush"
+			],
+			[
+				"univ",
+				"university"
+			],
+			[
+				"dat",
+				"dateTime"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"h",
+				"hidden\tvisibility"
+			],
+			[
+				"p",
+				"pointer\tcursor"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"b",
+				"inline-block\tdisplay"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"padr",
+				"id_padre_new"
+			],
+			[
+				"ca",
+				"campo"
+			],
+			[
+				"colo",
+				"color_format"
+			],
+			[
+				"wL",
+				"wList"
+			],
+			[
+				"E",
+				"EVENT"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"id",
+				"idPadre1"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"no",
+				"noId"
+			],
+			[
+				"strp",
+				"strpos"
+			],
+			[
+				"expor",
+				"exported_id"
+			],
+			[
+				"int",
+				"intval"
+			],
+			[
+				"che",
+				"check"
+			],
+			[
+				"stri",
+				"stripslashes"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"tota",
+				"totales"
+			],
+			[
+				"even",
+				"eventbriteapi"
+			],
+			[
+				"form",
+				"form_data"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"sc",
+				"scroll\toverflow"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"crawler",
+				"crawler_out"
+			],
+			[
+				"counter",
+				"counter_insert"
+			],
+			[
+				"res",
+				"resize"
+			],
+			[
+				"get",
+				"getAttr"
+			],
+			[
+				"plan",
+				"planHasPrice"
+			],
+			[
+				"has",
+				"hasPrice"
+			],
+			[
+				"j",
+				"json"
+			],
+			[
+				"to",
+				"total_rows"
+			],
+			[
+				"total",
+				"total_rows"
+			],
+			[
+				"re",
+				"ret\treturn"
+			],
+			[
+				"curl_err",
+				"curl_error"
+			],
+			[
+				"url",
+				"url_image"
+			],
+			[
+				"mi",
+				"mime"
+			],
+			[
+				"pr2",
+				"pri2\tprint_r2(...);"
+			],
+			[
+				"WListC",
+				"WListCellOptionsEditor"
+			],
+			[
+				"expo",
+				"exported_id"
+			],
+			[
+				"R",
+				"Request"
+			],
+			[
+				"C",
+				"Country"
+			],
+			[
+				"g",
+				"geo"
+			],
+			[
+				"debug",
+				"debugWarnings"
+			],
+			[
+				"add",
+				"address_components"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"API",
+				"API_TOKEN"
+			],
+			[
+				"this",
+				"this-"
+			],
+			[
+				"file",
+				"file_size"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"sour",
+				"source"
+			],
+			[
+				"sou",
+				"source"
+			],
+			[
+				"source",
+				"source_id"
+			],
+			[
+				"s",
+				"sqlQ"
+			],
+			[
+				"curr",
+				"currency_id"
+			],
+			[
+				"lon",
+				"long_name"
+			],
+			[
+				"coor",
+				"coordenadas"
+			],
+			[
+				"pro",
+				"provincia"
+			],
+			[
+				"count",
+				"country"
+			],
+			[
+				"url_",
+				"url_afiliate"
+			],
+			[
+				"tim",
+				"timezone"
+			],
+			[
+				"event_",
+				"event_id"
+			],
+			[
+				"csv",
+				"csv_file"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"is_c",
+				"is_crawler"
+			],
+			[
+				"WI",
+				"WInputCheck"
+			],
+			[
+				"counter_ignored_",
+				"counter_ignored_deleted"
+			],
+			[
+				"counter_",
+				"counter_ignored"
+			],
+			[
+				"r",
+				"ruta"
+			],
+			[
+				"P",
+				"Provincia"
+			],
+			[
+				"Copy",
+				"CopyPlan"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"c",
+				"content"
+			],
+			[
+				"f",
+				"filtros"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"para",
+				"param_categ"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"resu",
+				"result_json"
+			],
+			[
+				"googl",
+				"google_places_prov"
+			],
+			[
+				"hobb",
+				"hobby_id"
+			],
+			[
+				"ho",
+				"hobby_id"
+			],
+			[
+				"img",
+				"img_name"
+			],
+			[
+				"goo",
+				"google_places_id"
+			],
+			[
+				"goog",
+				"google_places_country"
+			],
+			[
+				"htm",
+				"htmOut"
+			],
+			[
+				"ht",
+				"htmOut"
+			],
+			[
+				"par",
+				"param_country"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"data",
+				"dataJson"
+			],
+			[
+				"is",
+				"isset"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1206,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Default/Syntax Tests.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					""
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"All Syntaxes"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Performance"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Regex Compatibility"
+				]
+			],
+			[
+				"Packages/Default/Syntax Tests.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 588.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"synt php",
+				"Set Syntax: PHP"
+			],
+			[
+				"synt jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pac open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"synta jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synta php",
+				"Set Syntax: PHP"
+			],
+			[
+				"synta ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"Snippet: ",
+				"Snippet: print_r2(...);"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"synt ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Build: Cancel"
+			],
+			[
+				"git comm",
+				"Git: Commit history"
+			],
+			[
+				"git log",
+				"Git: Log Current File"
+			],
+			[
+				"git st",
+				"Git: Show Tags"
+			],
+			[
+				"git ",
+				"Git: Log All"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				" synta sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"synt",
+				"Set Syntax: Makefile"
+			],
+			[
+				"file",
+				"File History: Open recently closed file… (All Projects)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"recent_active_files ",
+				"RecentActiveFiles: recent_active_files"
+			],
+			[
+				"forma",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"synt css",
+				"Set Syntax: CSS"
+			],
+			[
+				"synt ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"codeformat",
+				"CodeFormatter: Show PHP Transformations"
+			],
+			[
+				"codefrorma",
+				"CodeFormatter: Show PHP Transformations"
+			],
+			[
+				"linter disa",
+				"SublimeLinter: Disable Inline Tooltips"
+			],
+			[
+				"linter ",
+				"SublimeLinter: Enable Inline Tooltips"
+			],
+			[
+				"linter all",
+				"SublimeLinter: Enable Inline Tooltips"
+			],
+			[
+				"browser",
+				"Browse Mode: Left Sidebar"
+			],
+			[
+				"focus",
+				"Focus File on Sidebar"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"synta bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"synta",
+				"Set Syntax: Batch File"
+			],
+			[
+				"format",
+				"CodeFormatter: Show PHP Transformations"
+			],
+			[
+				"codeform",
+				"CodeFormatter: Format as PHP Syntax"
+			],
+			[
+				"CodeFormatter",
+				"CodeFormatter: Show PHP Transformations"
+			],
+			[
+				"codeformate php",
+				"CodeFormatter: Show PHP Transformations"
+			],
+			[
+				"package control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"synt sh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sy",
+				"Set Syntax: CSS"
+			],
+			[
+				"crv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"inclu",
+				"Snippet: include …"
+			],
+			[
+				"snippet in",
+				"Snippet: include …"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"sni pri",
+				"Snippet: print_2"
+			],
+			[
+				"snip",
+				"Snippet: <?php foreach (…) … <?php endforeach ?>"
+			],
+			[
+				"pri",
+				"Snippet: print_2"
+			],
+			[
+				"sni",
+				"Snippet: print_1"
+			],
+			[
+				"clas",
+				"Snippet: Class"
+			],
+			[
+				"funct",
+				"Snippet: function __construct"
+			],
+			[
+				"Snippet: funct",
+				"Snippet: Function"
+			],
+			[
+				"syntax",
+				"Set Syntax: Apache Conf"
+			],
+			[
+				"snippet: pri",
+				"Snippet: print_1"
+			],
+			[
+				"snipp",
+				"Snippet: FILES['…']"
+			],
+			[
+				"fon",
+				"Preferences: Package Control Settings – Default"
+			]
+		],
+		"width": 750.0
+	},
+	"console":
+	{
+		"height": 352.0,
+		"history":
+		[
+			"dir",
+			"ls",
+			"dir",
+			"clear",
+			"cls",
+			"dir",
+			"form",
+			"hola",
+			"ls",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample"
+	],
+	"file_history":
+	[
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/composer.json",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/public-cms/app/Models/User.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Models/User.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/users/tmpl_main.inc",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/public-cms/app/sections/users/tmpl_main.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/local_t/en.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/composer.json",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/config_host.php",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/config_host_local.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/config_host.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/config_host_local.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/Main.php",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/public-cms/Main.php",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/public-cms/index.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/index.php",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/membrillo-laradock/nginx/sites/app.conf",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/membrillo-laradock/php-fpm/php7.2.ini",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/membrillo-laradock/nginx/sites/.gitignore",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/membrillo-laradock/.gitignore",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/membrillo-laradock/nginx/nginx.conf",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/DBSchema/membrillo-demo.sql",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/DBSchema/membrillo2_sample.sql",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/docker-hb-cms/.env",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/membrillo-laradock/.env",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/DBSchema/membrillo2_sample-JOSE.sql",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/membrillo-laradock/nginx/startup.sh",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/docker-hb-cms/.run.sh",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/membrillo-laradock/.run.sh",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/docker-hb-cms/nginx/nginx.conf",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/.htaccess",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/membrillo-laradock/nginx/sites/default.conf",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/docker-hb-cms/nginx/sites/default.conf",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/membrillo-laradock/nginx/sites/app.conf.example",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/docker-hb-cms/nginx/sites/app.conf",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/docker-hb-cms/.compose_up.sh",
+		"/C/Users/jose_/develop/angelrove/membrillo2-sample/.gitignore",
+		"/C/Users/jose_/develop/angelrove/webdo/docker-webdo/apache2/sites/default.apache.conf",
+		"/C/Users/jose_/develop/angelrove/webdo/docker-webdo/.run.sh",
+		"/C/Users/jose_/develop/angelrove/webdo/README.md",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/README.md",
+		"/C/Users/jose_/develop/angelrove/webdo/docker-webdo/apache2/sites/sample.conf.example",
+		"/C/Users/jose_/develop/angelrove/webdo/docker-webdo/README.md",
+		"/C/Users/jose_/develop/angelrove/webdo/docker-webdo/nginx/sites/app.conf.example",
+		"/C/Users/jose_/develop/angelrove/webdo/docker-webdo/.env",
+		"/C/Users/jose_/develop/hobbiespot/hobbiespot-api/docker-hbs-api/README.md",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/.gitignore",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/notifications/tmpl_edit.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/utils/src/Db_mysql.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/_libs/emoji-picker-master/lib/js/jquery.emojiarea.js",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/_libs/emoji-picker-master/lib/css/emoji.css",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WObjects/WTree2/WTree2.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/onesignal/emoji-picker/lib/js/jquery.emojiarea.js",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/onesignal/emoji-picker/README.md",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/onesignal/emoji-picker/lib/js/emoji-picker.js",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/utils/src/CssJsLoad.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/onInitPage.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WInputs/WCalendar/WCalendar.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/composer.json",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/_vendor_cssjs.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/_themes/tuning-metro.css",
+		"/C/Users/jose_/AppData/Local/Temp/scp56034/home/forge/cms.hobbiespot.com/config_host.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/_libs/emoji-picker-master/demo/index.html",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/onesignal/emoji-picker/lib/js/config.js",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/notifications/ctrl_simple/oper.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WApp/Config_Secciones.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/config_app.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/config_host.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/onesignal/emoji-picker/demo/index.html",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/onesignal/emoji-picker/lib/js/util.js",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/onesignal/emoji-picker/lib/js/tether.min.js",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/onesignal/emoji-picker/lib/js/nanoscroller.min.js",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WObjects/WForm/WForm.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/notifications.html",
+		"/C/Users/jose_/Desktop/xxx/notifications.html",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WInputs/WInputTextarea.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WInputs/WInputHtml/lib.js",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WInputs/WInputHtml/WInputHtml.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/config/categorias/tmpl_main.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/config/categorias/ctrl_main/listController.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/config/categorias/tmpl_edit_inputs.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Models/Categorias.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/Database/ModelHelper.php",
+		"/C/Users/jose_/.ssh/id_rsa.pub",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/config/categorias/ctrl_n2/listController.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/config/categorias/ctrl_n3/listController.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/config/categorias/ctrl_search/listController.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/config/categorias/onInitPage.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WApp/Local.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WObjects/WList/WList.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Services/CrawlersEvents/CrawlerTicketmaster/CrawlerTicketmasterParser.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/planes/crawler.js",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Services/CrawlersEvents/CrawlerTicketea/CrawlerTicketeaParser.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Services/PublishUniversity.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Services/CrawlersEvents/AbstractCrawlerEvents.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Services/CrawlersEvents/CrawlerEventbrite/CrawlerEventbriteParser.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Services/CrawlersEvents/CrawlerCsv/CrawlerCsvParser.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Services/CrawlersEvents/AbstractCrawlerEventsParser.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Services/AbstractPublisher/AbstractPublisher.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/config/universities/ctrl_simple/oper.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/config/universities/ctrl_simple/tmpl_edit.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/planes/main_controller.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/_libs/PlanFiltros.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/planes/ctrl_simple/oper.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Models/Plan.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/Database/GenQuery.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WApp/local_t/es.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Models/Cache_timezones.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Services/PublishNotification.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Models/Notifications.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/Database/ModelInterface.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/hobbiespot/hobbiespot-sdk-php/src/Hobbiespot/Api/TimezonePush.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/hobbiespot/hobbiespot-sdk-php/src/Hobbiespot/Api/Request.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/notifications/tmpl_main.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/planes/main_tmpl.inc",
+		"/C/Users/jose_/Desktop/dump.sql",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Models/Cfg_timezone.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/hobbiespot/hobbiespot-sdk-php/README.md",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/Services/CrawlersEvents/CrawlerTicketmaster/CrawlerTicketmaster.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/notifications/deeplink.js",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/CONFIG_SECC.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WPage/Navbar.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WApp/Config_Secciones_Item.php",
+		"/C/Users/jose_/AppData/Local/Temp/scp26491/home/forge/cms.hobbiespot.com/_logs/cms-php-error.log",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/utils/src/UtilsBasic.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/DBSchema/11-14-notifications.sql",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/public/app/sections/calendar/tmpl_main.inc",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WObjects/WList/iWListCellOptionsEditor.php",
+		"/C/Users/jose_/develop/HobbieSpot/hobbiespot-cms/vendor/angelrove/membrillo2/src/WObjects/WList/iWListCellEditor.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"",
+			"C:\\Users\\jose_\\develop\\HobbieSpot\\hobbiespot-cms\\",
+			"C:\\Users\\jose_\\develop\\HobbieSpot\\hobbiespot-cms\\vendor\\angelrove\\membrillo2\\src",
+			"",
+			"C:\\Users\\jose_\\develop\\HobbieSpot\\hobbiespot-cms\\docker-hb-cms",
+			"",
+			"-*/_cache/*",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"public",
+			", NULL",
+			"MYSQL_VERSION",
+			"EXIF",
+			"php-fpm",
+			"DB_HOST",
+			"HOST",
+			"REDIS_HOST",
+			"DB_HOST",
+			"DATA",
+			"DATA_SAVE_PATH",
+			"nginx",
+			"set",
+			"img/IconsetSmiles.png",
+			"emoji-picker",
+			"PATH_VENDOR.\"/onesignal",
+			"app/_libs",
+			"app/lib",
+			"https://github.com/OneSignal/emoji-picker.git",
+			"/app/_libs",
+			"\"/app/_libs/emoji-picker-master",
+			"PATH_VENDOR",
+			"xxx",
+			"PATH_VENDOR",
+			"main>.page-header>h2",
+			"\"",
+			"emoji-picker-icon",
+			"tether",
+			".js",
+			".css",
+			"nano",
+			"set(",
+			"onesignal/emoji-picker",
+			"PATH_VENDOR",
+			"serhioromano",
+			"_js",
+			"_css",
+			"CssJsLoad::set",
+			"PATH_VENDOR",
+			"URL_VENDOR",
+			"->db",
+			"setSection_db(",
+			"->db",
+			"$CONFIG_DB",
+			"new mysqli",
+			"->set_charset",
+			"popupButtonClasses",
+			"discover",
+			"discover()",
+			"window.FontAwesomeConfig.searchPseudoElements",
+			"\"",
+			"data-emojiable",
+			"awesome",
+			"set_css",
+			"/vendor",
+			"URL_VENDOR",
+			"URL_VENDOR.",
+			"/vendor",
+			"vendor/",
+			"\\CssJsLoad",
+			"lib/",
+			"set_css",
+			".",
+			"\"li",
+			"CssJsLoad",
+			"></script>",
+			"<script src=",
+			"tinymce",
+			"selector",
+			"plugins",
+			"toolbar",
+			".$LANG",
+			"$form_data['name'].$LANG",
+			"categoría",
+			"getSelectPadre",
+			"name",
+			"getSelectPadre",
+			"all_n2(",
+			"color_formatA",
+			"getLang",
+			"getLang()",
+			"local",
+			"wList",
+			"parse_url_afiliate($hasPrice",
+			"url_a",
+			"public function parse_url_afiliate(",
+			"parse_url_afiliate",
+			"parse_payment()",
+			"parse_url_afiliate()",
+			"get_id_afiliate()",
+			"parse_url_afiliate",
+			"pushImageData",
+			"pushImage(",
+			"pushImage",
+			"pushImageData",
+			"img_api_name",
+			"img_id_name",
+			"img_bd_name",
+			"img_api_name",
+			"file_bg",
+			"image_bg",
+			"'image'",
+			"'image_id'",
+			"$input_",
+			"$input_logo",
+			"user",
+			"GenQuery_error_unique",
+			"siendo utilizado",
+			"esta siendo utilizado",
+			"time",
+			"delete",
+			"parseResult",
+			"row_timezone",
+			"locale",
+			"Login",
+			"login",
+			"timezone",
+			"Cfg_timezone",
+			"into cache_timezones(",
+			"\"timezone\": ",
+			"{\n    ",
+			"string",
+			"= (",
+			"&",
+			"deep_",
+			"??",
+			"deepDate",
+			"link"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"categorias",
+			"update universities set hobbiespot_id = ",
+			"'",
+			"",
+			"&",
+			"`name`",
+			"`currency`",
+			"",
+			"where",
+			"INTO poblaciones",
+			"INTO provincias"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.3333333333
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 194.0
+	},
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 127.0
+	},
+	"pinned_build_system": "Packages/Default/Syntax Tests.sublime-build",
+	"project": "Membrillo.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jquery.emojiarea.js",
+				"vendor\\onesignal\\emoji-picker\\lib\\js\\jquery.emojiarea.js"
+			],
+			[
+				"emoji-picker.js",
+				"vendor\\onesignal\\emoji-picker\\lib\\js\\emoji-picker.js"
+			],
+			[
+				"css",
+				"vendor\\angelrove\\utils\\src\\CssJsLoad.php"
+			],
+			[
+				"wlist",
+				"vendor\\angelrove\\membrillo2\\src\\WObjects\\WList\\WList.php"
+			],
+			[
+				"CrawlerTicketmasterParser",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketmaster\\CrawlerTicketmasterParser.php"
+			],
+			[
+				"eventbrite",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbriteParser.php"
+			],
+			[
+				"PublishUniversity",
+				"public\\app\\Services\\PublishUniversity.php"
+			],
+			[
+				"PublishNotification",
+				"public\\app\\Services\\PublishNotification.php"
+			],
+			[
+				"",
+				"README.md"
+			],
+			[
+				"ticket",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketmaster\\CrawlerTicketmasterParser.php"
+			],
+			[
+				"catego",
+				"public\\app\\Models\\Categorias.php"
+			],
+			[
+				"tmpl_ma not",
+				"public\\app\\sections\\notifications\\tmpl_main.inc"
+			],
+			[
+				"oper",
+				"public\\app\\sections\\notifications\\ctrl_simple\\oper.inc"
+			],
+			[
+				"WForm",
+				"vendor\\angelrove\\membrillo2\\src\\WObjects\\WForm\\WForm.php"
+			],
+			[
+				"TimezonePush",
+				"vendor\\hobbiespot\\hobbiespot-sdk-php\\tests\\TimezonePushTest.php"
+			],
+			[
+				"Db_mysql.php",
+				"vendor\\angelrove\\utils\\src\\Db_mysql.php"
+			],
+			[
+				"appcms",
+				"vendor\\angelrove\\membrillo2\\src\\AppCms.php"
+			],
+			[
+				"magic",
+				"public\\magic"
+			],
+			[
+				"amgic",
+				"vendor\\angelrove\\membrillo2\\src\\Magic\\Magic.php"
+			],
+			[
+				"plan",
+				"public\\app\\Models\\Plan.php"
+			],
+			[
+				"wform",
+				"vendor\\angelrove\\membrillo2\\src\\WObjects\\WForm\\WForm.php"
+			],
+			[
+				"navigationbar.js",
+				"public\\app\\sections\\calendar\\obj_calendar\\calendar-navigationbar.js"
+			],
+			[
+				"calendar-navigationbar",
+				"public\\app\\sections\\calendar\\obj_calendar\\calendar-navigationbar.inc"
+			],
+			[
+				"conf-calendar",
+				"public\\app\\sections\\calendar\\conf-calendar.js"
+			],
+			[
+				"appCms",
+				"vendor\\angelrove\\membrillo2\\src\\AppCms.php"
+			],
+			[
+				"appcm",
+				"vendor\\angelrove\\membrillo2\\src\\AppCms.php"
+			],
+			[
+				"winpu",
+				"vendor\\angelrove\\membrillo2\\src\\WInputs\\WInputSelect.php"
+			],
+			[
+				"winp",
+				"vendor\\angelrove\\membrillo2\\src\\WInputs\\WInputSelect.php"
+			],
+			[
+				"publish",
+				"public\\app\\Services\\PublishPlan.php"
+			],
+			[
+				"model",
+				"vendor\\angelrove\\membrillo2\\src\\Database\\Model.php"
+			],
+			[
+				"EchoFlush",
+				"public\\app\\Services\\EchoFlush.php"
+			],
+			[
+				"ModelHelper",
+				"vendor\\angelrove\\membrillo2\\src\\Database\\ModelHelper.php"
+			],
+			[
+				"AbstractPublisher",
+				"public\\app\\Services\\AbstractPublisher\\AbstractPublisher.php"
+			],
+			[
+				"eventb",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbrite.php"
+			],
+			[
+				"categ",
+				"public\\app\\Models\\Categorias.php"
+			],
+			[
+				"categor",
+				"public\\app\\Models\\Categorias.php"
+			],
+			[
+				"ajax-",
+				"public\\app\\sections\\calendar\\ajax-get-events.inc"
+			],
+			[
+				"eventbrit",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbrite.php"
+			],
+			[
+				"crawler",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbrite.php"
+			],
+			[
+				"publishPl",
+				"public\\app\\Services\\PublishPlan.php"
+			],
+			[
+				"hobby",
+				"public\\app\\Services\\PublishHobby.php"
+			],
+			[
+				"main_controller",
+				"public\\app\\sections\\planes\\main_controller.inc"
+			],
+			[
+				"CrawlerTicketmaster",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketmaster\\CrawlerTicketmaster.php"
+			],
+			[
+				"ImageTransform",
+				"vendor\\angelrove\\utils\\src\\Images\\ImageTransform.php"
+			],
+			[
+				"eventbr",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbrite.php"
+			],
+			[
+				"ticketmaster",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketmaster\\CrawlerTicketmasterParser.php"
+			],
+			[
+				"CrawlerTicketmaster.php",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketmaster\\CrawlerTicketmaster.php"
+			],
+			[
+				"publ",
+				"public\\app\\Services\\PlanServices\\PublishPlan.php"
+			],
+			[
+				"AbstractCrawlerEventsParser",
+				"public\\app\\Services\\CrawlersEvents\\AbstractCrawlerEventsParser.php"
+			],
+			[
+				"pl",
+				"public\\app\\Models\\Plan.php"
+			],
+			[
+				"UtilsBasic",
+				"vendor\\angelrove\\utils\\src\\UtilsBasic.php"
+			],
+			[
+				"listController",
+				"public\\app\\sections\\config\\categorias\\ctrl_main\\listController.inc"
+			],
+			[
+				"tmpl_edit_inputs",
+				"public\\app\\sections\\config\\categorias\\tmpl_edit_inputs.inc"
+			],
+			[
+				"categori",
+				"public\\app\\Models\\Categorias.php"
+			],
+			[
+				"wf",
+				"vendor\\angelrove\\membrillo2\\src\\WObjects\\WForm\\WForm.php"
+			],
+			[
+				"modelh",
+				"vendor\\angelrove\\membrillo2\\src\\Database\\ModelHelper.php"
+			],
+			[
+				"ctrl_n2/flow.inc",
+				"public\\app\\sections\\config\\categorias\\ctrl_n2\\flow.inc"
+			],
+			[
+				"crawlerticket",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketmaster\\CrawlerTicketmasterParser.php"
+			],
+			[
+				"crawlerTick",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketea\\CrawlerTicketeaParser.php"
+			],
+			[
+				"crawlereve",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbriteParser.php"
+			],
+			[
+				"crawler ticketm",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketmaster\\CrawlerTicketmasterParser.php"
+			],
+			[
+				"crawler ticke",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketmaster\\CrawlerTicketmaster.php"
+			],
+			[
+				"crawler event",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbrite.php"
+			],
+			[
+				"University.ph",
+				"public\\app\\Models\\University.php"
+			],
+			[
+				"user.",
+				"public\\app\\Models\\User.php"
+			],
+			[
+				"WList.php",
+				"vendor\\angelrove\\membrillo2\\src\\WObjects\\WList\\WList.php"
+			],
+			[
+				"CssJsLoad",
+				"vendor\\angelrove\\utils\\src\\CssJsLoad.php"
+			],
+			[
+				"/Plan.php",
+				"public\\app\\Models\\Plan.php"
+			],
+			[
+				"AppCmsAjax.php",
+				"vendor\\angelrove\\membrillo2\\src\\AppCmsAjax.php"
+			],
+			[
+				"CallApi.php",
+				"vendor\\angelrove\\utils\\src\\CallApi.php"
+			],
+			[
+				"lanes/ctrl_simple/oper.inc",
+				"public\\app\\sections\\planes\\ctrl_simple\\oper.inc"
+			],
+			[
+				"plan.",
+				"public\\app\\Models\\Plan.php"
+			],
+			[
+				"crawl",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketea\\CrawlerTicketea.php"
+			],
+			[
+				"model.",
+				"vendor\\angelrove\\membrillo2\\src\\Database\\Model.php"
+			],
+			[
+				"Format",
+				"public\\app\\Models\\Formato.php"
+			],
+			[
+				"abstract",
+				"public\\app\\Services\\CrawlersEvents\\AbstractCrawlerEvents.php"
+			],
+			[
+				"wtree2",
+				"vendor\\angelrove\\membrillo2\\src\\WObjects\\WTree2\\WTree2.php"
+			],
+			[
+				"Wtre",
+				"vendor\\angelrove\\membrillo2\\src\\WObjects\\WTree\\WTree.php"
+			],
+			[
+				"Eventbr",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbrite.php"
+			],
+			[
+				"wtree",
+				"vendor\\angelrove\\membrillo2\\src\\WObjects\\WTree\\WTree.php"
+			],
+			[
+				"wlis",
+				"vendor\\angelrove\\membrillo2\\src\\WObjects\\WList\\WList.php"
+			],
+			[
+				"ticketm",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketmaster\\CrawlerTicketmaster.php"
+			],
+			[
+				"tmpl_map.php",
+				"public\\app\\Services\\GMapsApi\\tmpl_map.php"
+			],
+			[
+				"planes tmpl",
+				"public\\app\\sections\\planes\\edit_tmpl.inc"
+			],
+			[
+				"parse",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbriteParser.php"
+			],
+			[
+				"gen",
+				"vendor\\angelrove\\membrillo2\\src\\Database\\GenQuery.php"
+			],
+			[
+				"craw ticket",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketmaster\\CrawlerTicketmaster.php"
+			],
+			[
+				"planes edit",
+				"public\\app\\sections\\planes\\edit_controller.inc"
+			],
+			[
+				"config",
+				"config_host_local.php"
+			],
+			[
+				"AbstractCrawlerEvents.php",
+				"public\\app\\Services\\CrawlersEvents\\AbstractCrawlerEvents.php"
+			],
+			[
+				"AbstractCrawlerEvents",
+				"public\\app\\Services\\CrawlersEvents\\AbstractCrawlerEventsParser.php"
+			],
+			[
+				"abst",
+				"public\\app\\Services\\CrawlersEvents\\AbstractCrawlerEvents.php"
+			],
+			[
+				"crawlerTic",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketmaster\\CrawlerTicketMaster.php"
+			],
+			[
+				"main_tmpl_crawler",
+				"public\\app\\sections\\planes\\main_tmpl_crawler.inc"
+			],
+			[
+				"AppCmsAjax",
+				"vendor\\angelrove\\membrillo2\\src\\AppCmsAjax.php"
+			],
+			[
+				"utils",
+				"vendor\\angelrove\\utils\\src\\UtilsBasic.php"
+			],
+			[
+				"crawlerT",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketea\\CrawlerTicketea.php"
+			],
+			[
+				"crawlerCSV",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerCsv\\CrawlerCsv.php"
+			],
+			[
+				"User.php",
+				"public\\app\\Models\\User.php"
+			],
+			[
+				"flush",
+				"public\\app\\Services\\CrawlersEvents\\EchoFlush.php"
+			],
+			[
+				"crawlercsv",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerCsv\\CrawlerCsv.php"
+			],
+			[
+				"crawlerc",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerCsv\\CrawlerCsvParser.php"
+			],
+			[
+				"Crawler",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketea\\CrawlerTicketea.php"
+			],
+			[
+				"CrawlerEventbrite",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbrite.php"
+			],
+			[
+				"crawler_events",
+				"public\\app\\sections\\planes\\crawler_events.inc"
+			],
+			[
+				"flu",
+				"public\\app\\Services\\CrawlersEvents\\EchoFlush.php"
+			],
+			[
+				"WebCrawlerContent",
+				"vendor\\angelrove\\utils\\src\\WebCrawler\\WebCrawlerContent.php"
+			],
+			[
+				"CrawlerCsv.php",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerCsv\\CrawlerCsv.php"
+			],
+			[
+				"crawler.",
+				"public\\app\\sections\\planes\\crawler.js"
+			],
+			[
+				"crawle",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventsInterface.php"
+			],
+			[
+				"ajax",
+				"public\\app\\sections\\planes\\ajax-crawler.inc"
+			],
+			[
+				"CrawlerEventsInterface",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventsInterface.php"
+			],
+			[
+				"index_ajax.php",
+				"public\\index_ajax.php"
+			],
+			[
+				"tickete",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketea\\CrawlerTicketeaParser.php"
+			],
+			[
+				"crawlerparse",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerTicketea\\CrawlerTicketeaParser.php"
+			],
+			[
+				"parser",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbriteParser.php"
+			],
+			[
+				"crawlerEvent",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventsParserInterface.php"
+			],
+			[
+				"eventbri",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbriteParser.php"
+			],
+			[
+				"WInputFile_upload.php",
+				"vendor\\angelrove\\membrillo2\\src\\WInputs\\WInputFile\\WInputFile_upload.php"
+			],
+			[
+				"CrawlerEventbrite.php",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventbrite\\CrawlerEventbrite.php"
+			],
+			[
+				"ImageTransform.php",
+				"vendor\\angelrove\\utils\\src\\Images\\ImageTransform.php"
+			],
+			[
+				"CrawlerEventsInterface.php",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventsInterface.php"
+			],
+			[
+				"callap",
+				"vendor\\angelrove\\utils\\src\\CallApi.php"
+			],
+			[
+				"PublishPlan.php",
+				"public\\app\\Services\\PlanServices\\PublishPlan.php"
+			],
+			[
+				"ima",
+				"vendor\\angelrove\\utils\\src\\Images\\ImageTransform.php"
+			],
+			[
+				"CrawlerEv",
+				"public\\app\\Services\\CrawlersEvents\\CrawlerEventsInterface.php"
+			],
+			[
+				"main_tmpl.inc",
+				"public\\app\\sections\\planes\\main_tmpl.inc"
+			],
+			[
+				"Plan.php",
+				"public\\app\\Models\\Plan.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 452.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

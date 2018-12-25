@@ -1,12 +1,12 @@
-# membrillo2-sample
-    Basic proyect developed with membrillo2
+# membrillo-sample
+    Basic proyect developed with membrillo
 
 
 ## Install
 
 ### Clone repo
-    $ git clone https://github.com/angelrove/membrillo2-sample.git
-    $ cd membrillo2-sample
+    $ git clone https://github.com/angelrove/membrillo-sample.git
+    $ cd membrillo-sample
 
 ### Composer
     $ composer install

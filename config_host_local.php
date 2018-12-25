@@ -34,7 +34,7 @@ $CONFIG_DB['default'] = array(
  'HOST'     => 'mysql',
  'USER'     => 'default',
  'PASSWORD' => 'secret',
- 'DBNAME'   => 'membrillo2'
+ 'DBNAME'   => 'membrillo'
 );
 
 // OTHER ------------------------
