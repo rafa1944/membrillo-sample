@@ -1,6 +1,6 @@
 <?php
-use angelrove\membrillo2\GenQuery;
-use angelrove\membrillo2\WObjectsStatus\Event;
+use angelrove\membrillo\GenQuery;
+use angelrove\membrillo\WObjectsStatus\Event;
 
 
 switch(Event::$OPER) {

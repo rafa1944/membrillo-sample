@@ -1,9 +1,9 @@
 <?php
 namespace App\Models;
 
-use angelrove\membrillo2\Database\ModelInterface;
-use angelrove\membrillo2\Database\ModelHelper;
-use angelrove\membrillo2\WObjectsStatus\Event;
+use angelrove\membrillo\Database\ModelInterface;
+use angelrove\membrillo\Database\ModelHelper;
+use angelrove\membrillo\WObjectsStatus\Event;
 use angelrove\utils\Db_mysql;
 
 class User implements ModelInterface

@@ -1,5 +1,5 @@
 <?php
-use angelrove\membrillo2\WApp\Local;
+use angelrove\membrillo\WApp\Local;
 
 // Nav ----
 Local::$t['Users'] = 'Usuarios';

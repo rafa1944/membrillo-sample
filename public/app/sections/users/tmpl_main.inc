@@ -1,8 +1,8 @@
 <?php
-use angelrove\membrillo2\WPage\WPage;
-use angelrove\membrillo2\WObjects\WList\WList;
-use angelrove\membrillo2\WObjects\WList\WListColumn;
-use angelrove\membrillo2\Login\Login;
+use angelrove\membrillo\WPage\WPage;
+use angelrove\membrillo\WObjects\WList\WList;
+use angelrove\membrillo\WObjects\WList\WListColumn;
+use angelrove\membrillo\Login\Login;
 use App\Models\User;
 
 
@@ -23,7 +23,7 @@ $htmList->showNew();
 $htmList->showUpdate();
 $htmList->showDelete();
 
-$url_admin = \angelrove\membrillo2\CrudUrl::get(CRUD_EDIT_UPDATE, $controlName, 1);
+$url_admin = \angelrove\membrillo\CrudUrl::get(CRUD_EDIT_UPDATE, $controlName, 1);
 ?>
 
 <?php WPage::get()?>

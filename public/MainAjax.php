@@ -7,7 +7,7 @@
 
 namespace MainAjax;
 
-use angelrove\membrillo2\AppCmsAjax;
+use angelrove\membrillo\AppCmsAjax;
 require_once __DIR__ . '/../vendor/autoload.php';
 
 

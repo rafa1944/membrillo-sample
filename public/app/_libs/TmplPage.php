@@ -1,8 +1,8 @@
 <?
 namespace app\lib;
 
-use angelrove\membrillo2\WPage\WPage;
-use angelrove\membrillo2\Messages;
+use angelrove\membrillo\WPage\WPage;
+use angelrove\membrillo\Messages;
 
 
 class TmplPage

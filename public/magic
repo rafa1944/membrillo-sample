@@ -8,7 +8,7 @@ require __DIR__.'/../vendor/autoload.php';
  * Sample: php magic --newsecc notas
  */
 
-use angelrove\membrillo2\Magic\Magic;
+use angelrove\membrillo\Magic\Magic;
 
 $longopts = array(
     "newsecc:",

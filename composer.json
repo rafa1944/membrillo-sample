@@ -9,13 +9,13 @@
     ],
 
     "repositories": [
-       { "type": "git", "url": "https://github.com/angelrove/membrillo2.git" },
+       { "type": "git", "url": "https://github.com/angelrove/membrillo.git" },
        { "type": "git", "url": "https://github.com/angelrove/utils.git" },
        { "type": "git", "url": "https://github.com/angelrove/front-components.git" }
     ],
 
     "require-dev": {
-        "angelrove/membrillo2": "dev-master",
+        "angelrove/membrillo": "dev-master",
         "angelrove/utils": "dev-master",
         "angelrove/front-components": "dev-master"
     },
@@ -28,7 +28,7 @@
           "app\\lib\\":      "public/app/_libs/",
           "App\\Models\\":   "public/app/Models/",
           "App\\Services\\": "public/app/Services/",
-          "angelrove\\membrillo2\\": "vendor/angelrove/membrillo2/src/",
+          "angelrove\\membrillo\\": "vendor/angelrove/membrillo/src/",
           "angelrove\\utils\\": "vendor/angelrove/utils/src/",
           "angelrove\\front_components\\": "vendor/angelrove/front-components/src/"
         }

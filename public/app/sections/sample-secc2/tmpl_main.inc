@@ -1,7 +1,7 @@
 <?php
-use angelrove\membrillo2\WObjectsStatus\EventComponent2;
-use angelrove\membrillo2\WObjectsStatus\ObjectStatus;
-use angelrove\membrillo2\Messages;
+use angelrove\membrillo\WObjectsStatus\EventComponent2;
+use angelrove\membrillo\WObjectsStatus\ObjectStatus;
+use angelrove\membrillo\Messages;
 
 use app\lib\TmplPage;
 
@@ -50,5 +50,5 @@ include_once('app/_libs/TmplPage.php');
 
 <?php TmplPage::get()?>
   <h1>Hello world!!</h1>
-  <a href="<?=angelrove\membrillo2\CrudUrl::get('event_test', 'simple', 1)?>">Event >></a>
+  <a href="<?=angelrove\membrillo\CrudUrl::get('event_test', 'simple', 1)?>">Event >></a>
 <?php TmplPage::get_end()?>

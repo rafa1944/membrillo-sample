@@ -7,7 +7,7 @@
 
 namespace Main;
 
-use angelrove\membrillo2\AppCms;
+use angelrove\membrillo\AppCms;
 require_once __DIR__ . '/../vendor/autoload.php';
 
 

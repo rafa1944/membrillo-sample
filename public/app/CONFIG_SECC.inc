@@ -1,8 +1,8 @@
 <?php
-use angelrove\membrillo2\WApp\Config_Secciones;
-use angelrove\membrillo2\WApp\Local;
-use angelrove\membrillo2\WApp\Session;
-use angelrove\membrillo2\Login\Login;
+use angelrove\membrillo\WApp\Config_Secciones;
+use angelrove\membrillo\WApp\Local;
+use angelrove\membrillo\WApp\Session;
+use angelrove\membrillo\Login\Login;
 
 //-------------
 $CONFIG_SECCIONES = Session::set('CONFIG_SECCIONES', new Config_Secciones());
