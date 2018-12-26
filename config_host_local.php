@@ -4,7 +4,7 @@ define('IS_LOCALHOST', true);
 
 //----------------
 define('MAIL_ADMIN', 'develop@hobbiespot.com');
-define('APP_NAME', 'Membrillo Proyect');
+define('APP_NAME', 'Membrillo App');
 
 define('COMPANY_NAME',   'Membrillo');
 define('COMPANY_DOMAIN', 'Membrillo');
@@ -24,7 +24,7 @@ define('PATH_VENDOR', __DIR__.'/vendor');
 define('URL_VENDOR', 'http://vendor.app.local');
 
 # Uploads --------
-$CONFIG_APP['path_uploads'] = __DIR__.'/_uploads';
+$CONFIG_APP['path_uploads'] = __DIR__.'/public/uploads';
 $CONFIG_APP['url_uploads']  = '/uploads';
 // $CONFIG_APP['url_uploads']  = 'http://uploads.membrillo.localhost';
 $CONFIG_APP['url_uploads_web'] = $CONFIG_APP['url_uploads'];
@@ -34,6 +34,12 @@ $CONFIG_DB['default'] = array(
  'HOST'     => 'mysql',
  'USER'     => 'default',
  'PASSWORD' => 'secret',
+ 'DBNAME'   => 'membrillo'
+);
+$CONFIG_DB['default_local'] = array(
+ 'HOST'     => 'localhost',
+ 'USER'     => 'root',
+ 'PASSWORD' => 'root',
  'DBNAME'   => 'membrillo'
 );
 
