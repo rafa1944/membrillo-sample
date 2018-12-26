@@ -11,9 +11,9 @@ class User implements ModelInterface
     public static $TABLE = 'users';
 
     public static $profileValues = array(
-      'admin'  =>'Admin',
-      'editor' =>'Editor',
-      'user'   =>'User',
+      'root'   => 'Root',
+      'admin'  => 'Admin',
+      'basic'  => 'Basic',
     );
 
     //--------------------------------------------------------------

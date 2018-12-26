@@ -23,16 +23,18 @@ CREATE TABLE `sys_messages` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 CREATE TABLE `users` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `date_insert` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `login` varchar(100) NOT NULL COMMENT 'title=Login',
-  `passwd` varchar(100) NOT NULL,
-  `name` varchar(110) NOT NULL,
-  `deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `file_photo` varchar(300) DEFAULT NULL COMMENT 'type=file',
+  `id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `login` VARCHAR(100) NOT NULL COMMENT 'title=Login',
+  `passwd` VARCHAR(100) NOT NULL,
+  `name` VARCHAR(110) NOT NULL,
+  `deleted` TINYINT(3) UNSIGNED NOT NULL DEFAULT '0',
+  `file_photo` VARCHAR(300) NULL DEFAULT NULL COMMENT 'type=file',
+  `profile` ENUM('root','basic','admin') NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `index_login` (`login`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+  UNIQUE INDEX `index_login` (`login`)
+)
+COLLATE='utf8_general_ci';
 
 INSERT INTO `users` (`id`, `login`, `passwd`, `name`) VALUES
   (1, 'root', 'secret', 'Admin'),
