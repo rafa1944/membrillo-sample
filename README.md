@@ -44,3 +44,9 @@
     Database dumps:
         ./DBSchema/create-xxx.sql
         ./DBSchema/data-xxx.sql
+
+## Magic
+
+    cd public
+    php magic --newsecc Clients
+

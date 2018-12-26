@@ -1,19 +1,25 @@
 #!/usr/bin/env php
 <?php
+/**
+ * magic
+ *
+ * @author José A. Romero Vegas <jangel.romero@gmail.com>
+ *
+ * Sample: php magic --newsecc notas
+ *
+ * Commands:
+ *   newsecc
+ *   newmodel
+ */
 
 require __DIR__.'/../vendor/autoload.php';
 
-/**
- * Magic commands
- * Sample: php magic --newsecc notas
- */
-
-use angelrove\membrillo\Magic\Magic;
-
 $longopts = array(
     "newsecc:",
+    "newmodel:",
 );
 $params = getopt('', $longopts);
 
 // Run the Magic command
-Magic::command(__DIR__, $params);
+$magic = new angelrove\membrillo\Magic\Magic(__DIR__);
+$magic->command($params);
