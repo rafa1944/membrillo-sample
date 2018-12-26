@@ -1,6 +1,6 @@
 <?php
 $CONFIG_APP['debug'] = array(
-   'LOG_UPDATES' => true,
+   'LOG_UPDATES' => false,
 );
 
 $CONFIG_APP['login'] = array(

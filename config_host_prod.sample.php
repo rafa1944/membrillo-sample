@@ -7,7 +7,7 @@ define('MAIL_ADMIN', 'develop@membrillo.com');
 define('APP_NAME', 'Membrillo');
 
 define('COMPANY_NAME',   'Membrillo');
-define('COMPANY_DOMAIN', 'localhost');
+define('COMPANY_DOMAIN', 'www.membrillo.com');
 
 // Errors --------
 $CONFIG_APP['errors']['display']  = 0;
@@ -25,7 +25,7 @@ define('URL_VENDOR', 'http://vendor.xxxx.com');
 
 # Uploads --------
 $CONFIG_APP['path_uploads'] = __DIR__.'/_uploads';
-$CONFIG_APP['url_uploads']  = 'http://uploads.membrillo.localhost';
+$CONFIG_APP['url_uploads']  = '/uploads';
 $CONFIG_APP['url_uploads_web'] = $CONFIG_APP['url_uploads'];
 
 // BBDD ----------
