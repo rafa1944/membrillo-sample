@@ -23,7 +23,7 @@
 
        $ cd membrillo-laradock
        $ docker exec -it laradock_workspace_1 bash
-       $ ln -sf /var/www/public/_uploads/ public/uploads
+       $ ln -sf /var/www/_uploads/ public/uploads
 
 ### Composer
     $ composer install
