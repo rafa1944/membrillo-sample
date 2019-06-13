@@ -1,52 +1,63 @@
 # membrillo-sample
-    Basic proyect developed with membrillo
 
+    Basic proyect developed with membrillo
 
 ## Install
 
+    Add to hosts file:
+     127.0.0.1 app.local
+
 ### Clone repo
+
     $ git clone https://github.com/angelrove/membrillo-sample.git
     $ cd membrillo-sample
+    $ composer install
+
+## Run width Docker
+
+    $ git clone https://github.com/angelrove/membrillo-laradock.git
+    $ cd membrillo-laradock/
+    $ . run.sh
+    $ docker exec -it membrillo-laradock_workspace_1 bash
 
 ### Folders width write permision
 
     $ mkdir _uploads _logs public/_cache
 
-### Docker
+    Symlink point to uploads folder:
+        $ ln -sf /var/www/_uploads/ public/uploads
 
-    $ git clone https://github.com/angelrove/membrillo-laradock.git
+### Nginx rules
 
-    $ cd membrillo-laradock/
-    $ . run.sh
+    location / {
+        # try_files $uri $uri/ /index.php?$query_string;
 
-### Symlink point to uploads folder
+        # Membrillo framework rules ---
+        rewrite ^([^.]*[^/])$ $1/ permanent;
+        rewrite "^/(.+)/crd/([^/]+)/([^/]+)/([^/]+)/$" /?secc=$1&CONTROL=$2&EVENT=$3&ROW_ID=$4&$query_string break;
+        rewrite "^/(.+)/crd/([^/]+)/([^/]+)/$" /?secc=$1&CONTROL=$2&EVENT=$3&$query_string break;
+        rewrite "^/(.+)/$" /?secc=$1&$query_string break;
+        #--------------------
+    }
 
-       $ cd membrillo-laradock
-       $ docker exec -it laradock_workspace_1 bash
-       $ ln -sf /var/www/_uploads/ public/uploads
+    $ sudo service nginx reload
 
-### Composer
-    $ composer install
+### Develop (local): Config file
 
-### Production: Config files
+    - $ cp config_host_local.sample.php config_host.php
+    - $ nano config_host.php (to set database params)
 
-    $ cp config_host_prod.php config_host.php
+### Production: Config file
 
-    Edit config_host.php:
-      Set database params
-
-### Config files
-
-    Edit: config_host.php
+    - $ cp config_host_prod.sample.php config_host.php
+    - $ nano config_host.php (to set database params)
 
 ### Database
 
-    Database dumps:
-        ./DBSchema/create-xxx.sql
-        ./DBSchema/data-xxx.sql
+    Database dump:
+        In "DBSchema" folder
 
 ## Magic
 
     cd public
-    php magic --newsecc Clients
-
+    php magic --newsecc [Newsecc]

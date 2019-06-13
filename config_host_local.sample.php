@@ -36,12 +36,6 @@ $CONFIG_DB['default'] = array(
  'PASSWORD' => 'secret',
  'DBNAME'   => 'membrillo'
 );
-$CONFIG_DB['default_local'] = array(
- 'HOST'     => 'localhost',
- 'USER'     => 'root',
- 'PASSWORD' => 'root',
- 'DBNAME'   => 'membrillo'
-);
 
 // OTHER ------------------------
 // Google APIs keys
