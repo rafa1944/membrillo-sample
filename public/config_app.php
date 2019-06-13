@@ -7,6 +7,7 @@ $CONFIG_APP['login'] = array(
    'LOGIN'       => true,
    'LOGIN_TABLE' => 'users',
    'LOGIN_URL'   => '',
+   'LOGIN_VIEW'  => '',
 );
 
 $CONFIG_APP['varios'] = array(
@@ -23,15 +24,14 @@ $CONFIG_APP['data'] = array(
 use angelrove\membrillo\Login\LoginCtrl;
 use angelrove\membrillo\Login\LoginQueryInterface;
 
-
 class ILoginQuery implements LoginQueryInterface
 {
-   public function get($user, $passwd)
+   public function get($user, $passwd, $params)
    {
       $sqlQ = "SELECT * FROM users
-               WHERE login='$user' AND
-                     passwd='$passwd' AND
-                     deleted=0";
+               WHERE login  = '$user' AND
+                     passwd = '$passwd' AND
+                     deleted_at IS NULL";
       return $sqlQ;
    }
 }

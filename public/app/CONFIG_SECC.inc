@@ -27,3 +27,5 @@ $listSubSecc['seccs'] = array(
 //----------------------------------------------
 $CONFIG_SECCIONES->setSections($listSecciones, $listSubSecc);
 $CONFIG_SECCIONES->setDefault('users');
+
+$CONFIG_SECCIONES->setSection_logo('users', '<i class="fas fa-users-cog fa-lg"></i>');

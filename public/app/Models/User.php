@@ -19,13 +19,7 @@ class User implements ModelInterface
     //--------------------------------------------------------------
     public static function read(array $filtros=array(), $strict=false)
     {
-        return "SELECT * FROM " . self::$TABLE . " WHERE id <> 1 and deleted=0";
-    }
-    //--------------------------------------------------------------
-    public static function delete()
-    {
-        $sqlQ = "UPDATE " . self::$TABLE . " SET deleted='1' WHERE id='" . Event::$ROW_ID . "'";
-        Db_mysql::query($sqlQ);
+        return "SELECT * FROM " . self::$TABLE . " WHERE id <> 1 AND deleted_at IS NULL";
     }
     //--------------------------------------------------------------
     public static function rows()
@@ -54,7 +48,7 @@ class User implements ModelInterface
     }
 
     //--------------------------------------------------------
-    public static function create()
+    public static function create(array $listValues=array())
     {
         return ModelHelper::create(self::$TABLE);
     }
@@ -62,6 +56,11 @@ class User implements ModelInterface
     public static function update(array $listValues=array(), $id='')
     {
         return ModelHelper::update(self::$TABLE, $listValues, $id);
+    }
+
+    public static function delete()
+    {
+        return ModelHelper::softDelete(self::$TABLE);
     }
     //--------------------------------------------------------
 }
