@@ -21,19 +21,4 @@ $CONFIG_APP['data'] = array(
 
 
 // Login -----------------------------------
-use angelrove\membrillo\Login\LoginCtrl;
-use angelrove\membrillo\Login\LoginQueryInterface;
-
-class ILoginQuery implements LoginQueryInterface
-{
-   public function get($user, $passwd, $params)
-   {
-      $sqlQ = "SELECT * FROM users
-               WHERE login  = '$user' AND
-                     passwd = '$passwd' AND
-                     deleted_at IS NULL";
-      return $sqlQ;
-   }
-}
-
-LoginCtrl::set_iLoginQuery(new ILoginQuery());
+// angelrove\membrillo\Login\LoginCtrl::set_iLoginQuery(new \App\Services\AuthLogin());
