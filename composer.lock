@@ -34,14 +34,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/angelrove/membrillo.git",
-                "reference": "9846eada8d19d88c25aac5f2d56c560662a8f0a0"
+                "reference": "5cf7d02caa4a4427cf39bfd49aad9167ccacb757"
             },
             "require-dev": {
                 "angelrove/utils": "dev-master"
             },
             "type": "library",
             "autoload": {
-                "psr-4": []
+                "psr-4": {
+                    "angelrove\\utils\\": "vendor/angelrove/utils/src/"
+                }
             },
             "authors": [
                 {
@@ -50,7 +52,7 @@
                 }
             ],
             "description": "My little and pretty framework ",
-            "time": "2018-12-26T01:50:16+00:00"
+            "time": "2019-07-04T15:07:00+00:00"
         },
         {
             "name": "angelrove/utils",
@@ -58,7 +60,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/angelrove/utils.git",
-                "reference": "f3d090259df18a0b95098d7402899d83c846f1eb"
+                "reference": "1f3e1129946ad38c18339d63a08c4fe656b7b8d9"
             },
             "require-dev": {
                 "angelrove/clone-csscolor": "dev-master"
@@ -74,7 +76,7 @@
                 }
             ],
             "description": "Basic Utils",
-            "time": "2018-12-25T20:12:58+00:00"
+            "time": "2019-06-26T11:05:04+00:00"
         }
     ],
     "aliases": [],
