@@ -1,8 +1,8 @@
 _logs/
 _uploads/
-vendor/
 public/_cache/
 public-web/_cache/
+vendor/
 
 config/app.php
 public/uploads

@@ -1,18 +1,6 @@
 <?php
-define('DOC_ROOT_MAIN', __DIR__.'/..');
 define('IS_LOCALHOST', false);
-
-// Company -------
-define('MAIL_ADMIN', 'develop@company.com');
-define('APP_NAME', 'Inventory - TheCompany');
-
-define('COMPANY_NAME',   'TheCompany');
-define('COMPANY_DOMAIN', 'https://thecompany.com/');
-
-// Errors --------
-$CONFIG_APP['errors']['display']  = 0;
-$CONFIG_APP['errors']['path_log'] = DOC_ROOT_MAIN.'/_logs';
-$CONFIG_APP['errors']['log_file_pref'] = '';
+define('DISPLAY_ERRORS', 0);
 
 // Cache ---------
 define('CACHE_CSSJS_DISABLED', false); // set false in production
@@ -29,15 +17,9 @@ $CONFIG_APP['url_uploads']  = '/uploads';
 $CONFIG_APP['url_uploads_web'] = $CONFIG_APP['url_uploads'];
 
 # Database -------
-$CONFIG_DB['default'] = array(
- 'HOST'     => 'mysql',
- 'USER'     => 'default',
- 'PASSWORD' => 'secret',
- 'DBNAME'   => 'membrillo'
-);
-
-// OTHER ------------------------
-// Google APIs keys
-define('GOOGLE_API_KEY',   'xxx');
-define('RECAPTCHA_KEY',    'xxx');
-define('RECAPTCHA_SECRET', 'xxx');
+$CONFIG_DB['default'] = [
+  'HOST'     => 'mysql',
+  'USER'     => 'default',
+  'PASSWORD' => 'secret',
+  'DBNAME'   => 'membrillo'
+];
