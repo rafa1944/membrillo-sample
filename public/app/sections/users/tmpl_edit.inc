@@ -30,7 +30,7 @@ $loginType = (Event::$ROW_ID == 1)? 'text_read' : 'text';
     <?=$form->getInput('name', 'Nombre', true)?>
     <?=$form->getInput('login',  'Login', true, $loginType)?>
     <?=$form->getInput('passwd', 'Password', true)?>
-    <?=$form->getInput('profile', 'Profile', true, 'select_array', [User::$profileValues])?>
+    <?=$form->getInput('profile', 'Profile', true, 'select_array', [User::$profiles])?>
 
   <?php $form->get_end()?>
 <?php WPage::get_end()?>

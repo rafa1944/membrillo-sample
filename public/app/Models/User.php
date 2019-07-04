@@ -1,66 +1,20 @@
 <?php
 namespace App\Models;
 
-use angelrove\membrillo\Database\ModelInterface;
-use angelrove\membrillo\Database\ModelHelper;
-use angelrove\membrillo\WObjectsStatus\Event;
-use angelrove\utils\Db_mysql;
+use angelrove\membrillo\Database\Model;
+use angelrove\membrillo\Database\GenQuery;
+use angelrove\membrillo\Login\Login;
 
-class User implements ModelInterface
+class User extends Model
 {
-    public static $TABLE = 'users';
-
-    public static $profileValues = array(
-      'root'   => 'Root',
-      'admin'  => 'Admin',
-      'basic'  => 'Basic',
+    protected const CONF = array(
+        'table' => 'users',
+        'soft_delete' => true,
     );
 
-    //--------------------------------------------------------------
-    public static function read(array $filtros=array(), $strict=false)
-    {
-        return "SELECT * FROM " . self::$TABLE . " WHERE id <> 1 AND deleted_at IS NULL";
-    }
-    //--------------------------------------------------------------
-    public static function rows()
-    {
-        return ModelHelper::rows(self::$TABLE)." ORDER BY name";
-    }
-
-    public static function findById($id, $asArray=true, $setHtmlSpecialChars = true)
-    {
-        return ModelHelper::findById(self::$TABLE, $id, $asArray, $setHtmlSpecialChars);
-    }
-
-    public static function getValueById($id, $field)
-    {
-        return ModelHelper::getValueById(self::$TABLE, $id, $field);
-    }
-
-    public static function find(array $filters)
-    {
-        return ModelHelper::find(self::$TABLE, $filters);
-    }
-
-    public static function findEmpty()
-    {
-        return ModelHelper::findEmpty(self::$TABLE);
-    }
-
-    //--------------------------------------------------------
-    public static function create(array $listValues=array())
-    {
-        return ModelHelper::create(self::$TABLE);
-    }
-
-    public static function update(array $listValues=array(), $id='')
-    {
-        return ModelHelper::update(self::$TABLE, $listValues, $id);
-    }
-
-    public static function delete()
-    {
-        return ModelHelper::softDelete(self::$TABLE);
-    }
-    //--------------------------------------------------------
+    public static $profiles = array(
+      'admin' => 'Admin',
+      'basic' => 'Basic',
+      // 'root' => 'Root', // hidden
+    );
 }
