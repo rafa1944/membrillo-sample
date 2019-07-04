@@ -15,7 +15,6 @@
 
 ## Run width Docker
 
-    $ git clone https://github.com/angelrove/membrillo-laradock.git
     $ cd membrillo-laradock/
     $ . run.sh
     $ docker exec -it membrillo-laradock_workspace_1 bash
@@ -27,7 +26,20 @@
     Symlink point to uploads folder:
         $ ln -sf /var/www/_uploads/ public/uploads
 
-### Nginx rules
+### Config file
+
+    ./config/app.php
+
+### Production config
+
+    - $ cp ./config/app_prod.sample.php ./config/app.php
+    - Edit params: $ nano ./config/app.php
+
+### Database
+
+    Database dump: in "DBSchema" folder
+
+### Production: Nginx rules
 
     location / {
         # try_files $uri $uri/ /index.php?$query_string;
@@ -42,22 +54,9 @@
 
     $ sudo service nginx reload
 
-### Develop (local): Config file
+## Magic examples
 
-    - $ cp config_host_local.sample.php config_host.php
-    - $ nano config_host.php (to set database params)
+    Create a new section:
+       $ cd public
+       $ php magic --newsecc [Newsecc]
 
-### Production: Config file
-
-    - $ cp config_host_prod.sample.php config_host.php
-    - $ nano config_host.php (to set database params)
-
-### Database
-
-    Database dump:
-        In "DBSchema" folder
-
-## Magic
-
-    cd public
-    php magic --newsecc [Newsecc]

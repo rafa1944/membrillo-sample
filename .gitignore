@@ -1,12 +1,9 @@
-/_uploads/*
-/public/uploads
+_logs/
+_uploads/
+vendor/
+public/_cache/
+public-web/_cache/
 
-/_logs
+config/app.php
+public/uploads
 
-/config_host.inc
-/public/_cache/
-/public-web/_cache/
-/membrillo-laradock
-
-# vendor -------------
-/vendor/
