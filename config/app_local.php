@@ -1,6 +1,6 @@
 <?php
 define('IS_LOCALHOST', true);
-define('DISPLAY_ERRORS', 1);
+define('DISPLAY_ERRORS', 1); // set 0 in production
 
 // Cache ---------
 define('CACHE_CSSJS_DISABLED', true);  // set false in production
