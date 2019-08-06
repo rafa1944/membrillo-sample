@@ -1,0 +1,34 @@
+
+/*-- Theme color ------------*/
+/* Navbar */
+.navbar-inverse,
+.navbar-inverse.navbar-default .dropdown-menu>li>a {
+    background-color: #dd4b39;
+    border-color: #dd4b39;
+}
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse.navbar-default .dropdown-menu>li>a {
+    color: rgb(235, 233, 233);
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse.navbar-default .dropdown-menu>.active>a,
+.navbar-inverse.navbar-default .dropdown-menu>.active>a:hover,
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #d73925;
+}
+.navbar-inverse .navbar-brand {
+    color: rgb(239, 239, 239);
+}
+
+/* Datatables selected row */
+.table > tbody > tr.success > td, .table > tbody > tr.success > th, .table > tbody > tr > td.success, .table > tbody > tr > th.success, .table > tfoot > tr.success > td, .table > tfoot > tr.success > th, .table > tfoot > tr > td.success, .table > tfoot > tr > th.success, .table > thead > tr.success > td, .table > thead > tr.success > th, .table > thead > tr > td.success, .table > thead > tr > th.success {
+    background-color: mistyrose;
+}
+.table-hover>tbody>tr.success:hover>td, .table-hover>tbody>tr.success:hover>th, .table-hover>tbody>tr:hover>.success, .table-hover>tbody>tr>td.success:hover, .table-hover>tbody>tr>th.success:hover {
+    background-color: rgb(270, 210, 210);
+}
+

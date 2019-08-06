@@ -1,10 +1,12 @@
 <?php
 define('CACHE_VERSION', 'v11'); // update cache css, js, html files
-define('LOG_SQL', false); // in database
 
 // Debug ---------
 define('DEBUG_VARS', false);
 define('DEBUG_SQL',  false);
+
+// Log sql queries ----
+define('LOG_SQL', false); // in database
 
 // Login ----------
 $CONFIG_APP['login'] = [
