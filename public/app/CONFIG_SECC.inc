@@ -8,24 +8,19 @@ use angelrove\membrillo\Login\Login;
 $CONFIG_SECCIONES = Session::set('CONFIG_SECCIONES', new Config_Secciones());
 
 // List Sections ------------
-$listSecciones = array();
-$listSubSecc = array();
+$CONFIG_SECCIONES->setSection("myaccount", Local::$t['My account'])
+    ->logo('<i class="fas fa-user-cog fa-lg"></i>');
+$CONFIG_SECCIONES->setSubSection("myaccount", "mydata", Local::$t['My data']);
+$CONFIG_SECCIONES->setSubSection("myaccount", "updatepasswd", Local::$t['Change password']);
 
-$listSecciones['users'] = 'Users';
-$listSecciones['seccs'] = 'Sections';
+$CONFIG_SECCIONES->setSection("users", Local::$t['Users'], true)
+    ->logo('<i class="fas fa-users fa-lg"></i>');
 
-$listSubSecc['seccs'] = array(
-  'sample-secc2' => 'Sample secc2',
-  'sample-secc3' => 'Sample secc3',
-);
+$CONFIG_SECCIONES->setSection("sample-secc2", Local::$t['Sample secc2']);
+$CONFIG_SECCIONES->setSection("sample-secc3", Local::$t['Sample secc3']);
+
 
 // switch (Login::$INFO['profile']) {
 //     case 'root':
 //     break;
 // }
-
-//----------------------------------------------
-$CONFIG_SECCIONES->setSections($listSecciones, $listSubSecc);
-$CONFIG_SECCIONES->setDefault('users');
-
-$CONFIG_SECCIONES->setSection_logo('users', '<i class="fas fa-users-cog fa-lg"></i>');

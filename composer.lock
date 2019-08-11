@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "7474f5f28075b7a48baac9eabe80a493",
@@ -13,7 +13,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/angelrove/front-components.git",
-                "reference": "3e827bf48c731200c9d4821ed2aa56c8c312b7d4"
+                "reference": "c73441094265ebd39671b19951053cd5dd7e33b8"
             },
             "type": "library",
             "autoload": {
@@ -26,7 +26,7 @@
                 }
             ],
             "description": "Front components",
-            "time": "2018-11-07T12:18:15+00:00"
+            "time": "2019-07-18T10:47:20+00:00"
         },
         {
             "name": "angelrove/membrillo",
@@ -34,7 +34,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/angelrove/membrillo.git",
-                "reference": "ffb84a25ce23035755004811f137542976270aa8"
+                "reference": "786286d51ad4319cca379ecf7669eb0b8919bd79"
             },
             "require-dev": {
                 "angelrove/utils": "dev-master"
@@ -52,7 +52,7 @@
                 }
             ],
             "description": "My little and pretty framework ",
-            "time": "2019-07-04T21:20:53+00:00"
+            "time": "2019-08-07T15:10:34+00:00"
         },
         {
             "name": "angelrove/utils",
@@ -60,7 +60,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/angelrove/utils.git",
-                "reference": "1f3e1129946ad38c18339d63a08c4fe656b7b8d9"
+                "reference": "5a44a31fea4a75ce4f51fa98a5c2bf2b786c81f6"
             },
             "require-dev": {
                 "angelrove/clone-csscolor": "dev-master"
@@ -76,7 +76,7 @@
                 }
             ],
             "description": "Basic Utils",
-            "time": "2019-06-26T11:05:04+00:00"
+            "time": "2019-07-20T08:42:57+00:00"
         }
     ],
     "aliases": [],
