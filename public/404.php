@@ -11,31 +11,34 @@ header("Status: 404 Not Found");
 ?>
 <html>
 <head>
- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 </head>
 <body>
 
 <table style="border:1px solid #ccc" cellspacing="10" cellpadding="10" align="center">
- <tr><td style="text-align:center">
-   <div style="color:red">
-     <b>No hay una página web en esta dirección</b>
-   </div>
-   <br>
+    <tr><td style="text-align:center">
+        <div style="color:red">
+            <b>No hay una página web en esta dirección</b>
+        </div>
+        <br>
 
-   <div>
-    Ha ocurrido un error al mostrar esta página. <br>
-    El error ya ha sido registrado y será rectificado lo antes posible.
-   </div>
-   <br>
+        <div>
+            Ha ocurrido un error al mostrar esta página. <br>
+            El error ya ha sido registrado y será rectificado lo antes posible.
+        </div>
+        <br>
 
-   Error 404 <b>Not Found</b><br>
-   <?=$strErr?>
- </td></tr>
+        Error 404 <b>Not Found</b><br>
+        <?=$strErr?>
+    </td></tr>
 </table>
 
 <br>
-<div style="text-align:center"><a href="/">Ir a la página de inicio</a></div>
+<div style="text-align:center">
+    <a href="/">Go to homepage</a>
+    <a href="/?APP_EVENT=close">Close session</a>
+</div>
 
 </body>
 </html>

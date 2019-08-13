@@ -34,7 +34,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/angelrove/membrillo.git",
-                "reference": "786286d51ad4319cca379ecf7669eb0b8919bd79"
+                "reference": "e86714d6e195e2482d07c7bd3e62a5dbb2964f5a"
             },
             "require-dev": {
                 "angelrove/utils": "dev-master"
@@ -52,7 +52,7 @@
                 }
             ],
             "description": "My little and pretty framework ",
-            "time": "2019-08-07T15:10:34+00:00"
+            "time": "2019-08-13T18:57:04+00:00"
         },
         {
             "name": "angelrove/utils",

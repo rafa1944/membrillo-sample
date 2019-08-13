@@ -9,6 +9,7 @@
  *
  * Commands:
  *   newsecc
+ *      detail
  *   newmodel
  */
 
@@ -16,7 +17,10 @@ require __DIR__.'/../vendor/autoload.php';
 
 $longopts = array(
     "newsecc:",
+    "parentdetail:",
     "newmodel:",
+
+    "param:",
 );
 $params = getopt('', $longopts);
 
