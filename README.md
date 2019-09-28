@@ -13,13 +13,13 @@
     $ cd membrillo-sample
     $ composer install
 
-## Run width Docker
+## Run with Docker
 
     $ cd membrillo-laradock/
     $ . run.sh
     $ docker exec -it membrillo-laradock_workspace_1 bash
 
-### Folders width write permision
+### Folders with write permision
 
     $ mkdir _uploads _logs public/_cache
 
